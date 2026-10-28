@@ -1,0 +1,86 @@
+{
+  "sku_id": "non_alco",
+  "product_name": "Thực phẩm bảo vệ sức khoẻ NON ALCO",
+  "trade_names_seen": ["Viên ngậm giải rượu Non Alco", "NON ALCO - ENZYME GIẢI RƯỢU", "Non Alo (kênh YouTube bên thứ ba)"],
+  "category": "TPBVSK",
+  "company": "CÔNG TY CỔ PHẦN DƯỢC PHẨM VITATH (29A đường Tức Mạc, phường Cửa Nam, TP Hà Nội)",
+  "registration": {
+    "dksp_number": "4993/2024/ĐKSP",
+    "issued_date": "2024-06-19",
+    "status": "match",
+    "registry_rows": [
+      {"stt": "67154", "so_giay": "4993/2024/ĐKSP", "to_chuc": "CÔNG TY CỔ PHẦN DƯỢC PHẨM VITATH", "ten_san_pham": "Thực phẩm bảo vệ sức khoẻ NON ALCO", "role": "khớp SKU"}
+    ],
+    "note": "VFA ghi ngày cấp 19/6/2024; báo Thương hiệu và Công luận (04/07/2026) ghi 18/6/2024 — lệch 1 ngày, lấy theo VFA. Tìm 'nonalco' (viết liền) không ra dòng nào: bộ chuẩn hoá tên phải tách/ghép khoảng trắng."
+  },
+  "ad_confirmation": {
+    "gxnqc_number": null,
+    "issuer": null,
+    "status": "absent",
+    "sources": [
+      "https://vfa.gov.vn/tin-tuc/khan-truong-xac-minh-xu-ly-vi-pham-quang-cao-san-pham-vien-ngam-giai-ruou-non-alco-va-dk-betics-gold.html",
+      "https://vfa.gov.vn/upload/files/6/10/Tuan/Tuan%201/Tuan%202/Tuan%203/Tuan%204/Tuan%205/Tuan%206/Tuan%207/Tuan%208/Tuan%209/Tuan%2010/CV%20gui%20Cuc%20PTTH-TTDT(sua)_signed_1.pdf"
+    ],
+    "note": "VFA: 'chưa được Cục An toàn thực phẩm cấp Giấy xác nhận nội dung quảng cáo'. qc_2023_2024.csv có 5 hồ sơ GXNQC của VITATH (Rhino Đế Vương, AKI HYDROLYZED COLLAGEN, Eva Aki, Gluta Diamond, NGỦ NGON AKI) nhưng KHÔNG có NON ALCO — khớp với kết luận của VFA."
+  },
+  "recalls": [],
+  "permitted_claims": [
+    {
+      "text": "hỗ trợ thanh nhiệt, giải độc gan; hỗ trợ giảm các triệu chứng vàng da, mụn nhọt, nổi mề đay do chức năng gan kém; hỗ trợ giảm các biểu hiện nôn, khát, khô cổ ở người uống bia, rượu.",
+      "source_type": "brand_website",
+      "source_detail": "Báo Thương hiệu và Công luận (04/07/2026) thuật lại công dụng ghi 'trên website chính thức của doanh nghiệp'. Trang vitath.vn/vien-ngam-giai-ruou-non-alco.html nay chuyển về trang chủ (đã gỡ). Đây là công dụng theo bản công bố/nhãn, KHÔNG phải nội dung quảng cáo được xác nhận (sản phẩm không có GXNQC).",
+      "url": "https://thuonghieucongluan.com.vn/vien-ngam-giai-ruou-non-alco-quang-cao-giam-nhanh-nong-do-con-chi-sau-40-phut-can-cu-tu-dau-a325093.html",
+      "retrieved_at": "2026-10-21",
+      "confidence": "medium"
+    },
+    {
+      "text": "Hỗ trợ tăng cường chức năng gan, góp phần thanh nhiệt và hỗ trợ quá trình đào thải độc tố của cơ thể. Hỗ trợ cải thiện các biểu hiện liên quan đến chức năng gan suy giảm như mụn nhọt, ngứa ngoài da và tình trạng vàng da. Hỗ trợ giảm cảm giác khó chịu sau khi sử dụng rượu bia như buồn nôn, khát nước, khô rát cổ họng, giúp cơ thể cảm thấy dễ chịu hơn.",
+      "source_type": "pharmacy_listing",
+      "source_detail": "trungtamthuoc.com (đăng 12/08/2026) — nhà thuốc viết lại, không phải ảnh nhãn.",
+      "url": "https://trungtamthuoc.com/vien-ngam-giai-ruou-non-alco",
+      "retrieved_at": "2026-10-21",
+      "confidence": "low"
+    }
+  ],
+  "ingredients_declared": [
+    {"text": "Cao cà gai leo (Solanum procumbens): 200mg; Cao lá dong (Phrynium parviflorum): 100mg; Cao Xạ Đen (Ehretia asperula): 100mg; Nano Curcumin 10% (kích thước hạt <100nm): 100mg (tương đương 10,52mg curcuminoids); Cao diệp hạ châu (Phyllanthus urinaria): 50mg; Cao khúng khéng (Hovenia dulcis): 50mg; Bột gạo lên men: 50mg; Bột đậu xanh lên men: 50mg; Vitamin C (Acid L-ascorbic): 30mg; Silymarin: 20mg; Vitamin B1 (Thiamin hydroclorid): 2mg; Vitamin B6 (Pyridoxin hydroclorid): 2mg", "source": "https://trungtamthuoc.com/vien-ngam-giai-ruou-non-alco", "confidence": "low"}
+  ],
+  "usage_declared": [
+    {"text": "Ngậm 1 viên Non Alco trước khi sử dụng rượu bia khoảng 30 phút.", "source": "https://trungtamthuoc.com/vien-ngam-giai-ruou-non-alco", "confidence": "low"}
+  ],
+  "mandatory_phrases_observed": {
+    "category_phrase_on_label": null,
+    "disclaimer_text": "* Thực phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh",
+    "disclaimer_source": "listing trungtamthuoc.com (không phải nhãn; dùng dấu phẩy, không có 'và').",
+    "note": "Các ảnh chụp landing page nonalcovitath.vn và fanpage NON ALCO mà báo đăng không thấy câu khuyến cáo trong khung hình (không đủ để kết luận là thiếu)."
+  },
+  "origin_declared": {"text": "Việt Nam", "source": "https://trungtamthuoc.com/vien-ngam-giai-ruou-non-alco (mục Xuất xứ)"},
+  "regulator_warnings": [
+    {
+      "date": "2026-08-19",
+      "url": "https://vfa.gov.vn/tin-tuc/khan-truong-xac-minh-xu-ly-vi-pham-quang-cao-san-pham-vien-ngam-giai-ruou-non-alco-va-dk-betics-gold.html",
+      "excerpt": "2. Sản phẩm thực phẩm bảo vệ sức khỏe Non Alco do Công ty Cổ phần dược phẩm Vitath công bố chưa được Cục An toàn thực phẩm cấp Giấy xác nhận nội dung quảng cáo. [...] 4. Ngoài ra, tại website nêu trên có tình trạng một số bác sỹ tham gia quảng cáo thực phẩm, thực phẩm chức năng gây hiểu lầm cho người sử dụng, vi phạm quy định tại Khoản 2 Điều 27 Nghị định 15/2018/NĐ-CP"
+    },
+    {
+      "date": "2026-08-19",
+      "url": "https://vfa.gov.vn/upload/files/6/10/Tuan/Tuan%201/Tuan%202/Tuan%203/Tuan%204/Tuan%205/Tuan%206/Tuan%207/Tuan%208/Tuan%209/Tuan%2010/CV%20gui%20Cuc%20PTTH-TTDT(sua)_signed_1.pdf",
+      "excerpt": "Công văn 1658/ATTP-NĐTT gửi Cục PTTH&TTĐT (Bộ VHTTDL): nguồn phản ánh là tạp chí Thương hiệu và Công luận; website vi phạm https://vitath.vn/vien-ngam-giai-ruou-non-alco.html."
+    },
+    {
+      "date": "2026-08-21",
+      "url": "https://vtcnews.vn/cong-ty-co-phan-duoc-pham-vitath-bi-phat-110-trieu-dong-ar1035575.html",
+      "excerpt": "Sở Y tế Hà Nội, Quyết định số 2941/QĐ-SYT (21/8/2026; số QĐ theo mô tả video YouTube _FTlXzU5kU4 và VOV/Viettimes, chưa thấy bản gốc): phạt Vitath 110 triệu đồng. Nguyên văn VTC News: 'Doanh nghiệp bị phạt 70 triệu đồng vì quảng cáo sản phẩm thuộc nhóm hàng hóa, dịch vụ đặc biệt khi chưa được cơ quan có thẩm quyền xác nhận nội dung quảng cáo.' 'Công ty bị phạt 15 triệu đồng do quảng cáo thực phẩm bảo vệ sức khỏe nhưng không thể hiện cụm từ bắt buộc “Thực phẩm bảo vệ sức khỏe”.' 'Với việc quảng cáo thực phẩm thiếu tên sản phẩm hoặc tên, địa chỉ của tổ chức, cá nhân chịu trách nhiệm về sản phẩm, doanh nghiệp bị phạt thêm 25 triệu đồng.' → nhãn thật cho R06 và R03 ở cấp phiên/kênh."
+    }
+  ],
+  "sanctions": [
+    {"date": "2026-08-21", "authority": "Sở Y tế Hà Nội", "decision_no": "2941/QĐ-SYT (chưa đối chiếu bản gốc)", "fine_vnd": 110000000,
+     "violations": ["quảng cáo khi chưa được xác nhận nội dung (70 triệu) → R06", "quảng cáo TPBVSK không có cụm từ 'Thực phẩm bảo vệ sức khỏe' (15 triệu) → R03", "thiếu tên sản phẩm/tên, địa chỉ tổ chức chịu trách nhiệm (25 triệu)"],
+     "sources": ["https://vtcnews.vn/cong-ty-co-phan-duoc-pham-vitath-bi-phat-110-trieu-dong-ar1035575.html", "https://viettimes.vn/duoc-pham-vitath-bi-phat-110-trieu-dong-sau-vu-quang-cao-non-alco-post204832.html", "https://vov.vn/xa-hoi/duoc-pham-vitath-bi-phat-110-trieu-dong-vi-quang-cao-sai-quy-dinh-post1326043.vov", "https://www.youtube.com/watch?v=_FTlXzU5kU4"]}
+  ],
+  "violating_sites_named": ["vitath.vn/vien-ngam-giai-ruou-non-alco.html (nay chuyển hướng về trang chủ)", "nonalcovitath.vn (không kết nối được 22/10/2026)", "fanpage Facebook 'NON ALCO'", "kênh YouTube 'Viên Ngậm Giải Rượu NON ALCO'"],
+  "gaps": [
+    "Không có ảnh nhãn: công dụng chỉ có bản báo thuật lại từ website hãng (đã gỡ) và bản nhà thuốc viết lại.",
+    "Sản phẩm không có GXNQC → về pháp lý không có câu quảng cáo nào 'được phép'; permitted_claims ở đây là công dụng theo bản công bố, dùng để đo R05 ở mức claim, còn R06 chặn cả phiên.",
+    "Quyết định xử phạt 2941/QĐ-SYT (21/8/2026) mới thấy qua báo (VTC News, Viettimes, VOV) và mô tả video; chưa có bản quyết định gốc."
+  ]
+}

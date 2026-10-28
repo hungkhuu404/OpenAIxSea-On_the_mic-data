@@ -1,0 +1,810 @@
+{
+ "retrieved_at": "2026-10-21",
+ "portal": "https://antoanthucpham.moh.gov.vn/tra-cuu-ho-so (API: gateway-api-antoanthucpham.moh.gov.vn, GET, không đăng nhập)",
+ "caveats": [
+  "Dữ liệu công khai của cổng mới chỉ có giấy cấp đến 2024-09-01 (ĐKSP) / 2024-08-31 (GXNQC); /api/portal/public/csdl báo năm 2025 = 0, 2026 = 0.",
+  "trangThai/daThuHoi KHÔNG phản ánh thu hồi: 3984/2019/ĐKSP đã bị thu hồi bởi QĐ 136/QĐ-ATTP ngày 17/06/2026 nhưng API vẫn trả trangThai=0, daThuHoi=false.",
+  "Tham số soGiayPhep là tìm chuỗi con (838/2024 khớp cả 1838, 2838...). Cần so khớp chính xác cả hậu tố /ĐKSP hay /XNQC-ATTP.",
+  "Không có trường công dụng/thành phần/nội dung quảng cáo; fileDinhKemHoSo rỗng ở mọi bản ghi đã xem (66+)."
+ ],
+ "skus": {
+  "DK-Betics Gold": {
+   "verdict": "Có trong registry. ĐKSP 7615/2020/ĐKSP (13/08/2020), CÔNG TY CỔ PHẦN DƯỢC KHOA. Có GXNQC 3433/2020/XNQC-ATTP (23/10/2020) gắn với 7615/2020/ĐKSP. Không thấy trong recalls.jsonl (04/2025–06/2026).",
+   "lookups": [
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+     "params": {
+      "sanPham": "DK-Betics Gold",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gtncb_DK-Betics-Gold.json",
+     "totalCount": 1,
+     "items": [
+      {
+       "id": "35fac76b-eda4-5cce-853c-446a69a978da",
+       "tenSanPham": "Thực phẩm bảo vệ sức khoẻ DK-BETICS GOLD",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC KHOA",
+       "soGiayPhep": "7615/2020/ĐKSP",
+       "ngayCap": "2020-08-13T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+     "params": {
+      "sanPham": "Betics",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gtncb_Betics.json",
+     "totalCount": 7,
+     "items": [
+      {
+       "id": "bf4e849a-d4b6-5b2b-924d-fa5cc306954b",
+       "tenSanPham": "Thực phẩm bảo vệ sức khoẻ VIÊN ĐƯỜNG HUYẾT BETICS GOLD",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM PUBLIC HEALTH QUỐC TẾ",
+       "soGiayPhep": "5139/2023/ĐKSP",
+       "ngayCap": "2023-06-15T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "36febfcb-67e7-58ce-bfa8-7c3447bfeb89",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe CHAGABETICS GOLD",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM LINH NGỌC",
+       "soGiayPhep": "3875/2023/ĐKSP",
+       "ngayCap": "2023-04-26T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "5c9ccd45-7988-520c-91c7-47aa435a7ac5",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe HYPO-BETICS",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI DƯỢC PHẨM QUỐC TẾ MEDIPHARMA",
+       "soGiayPhep": "6987/2022/ĐKSP",
+       "ngayCap": "2022-12-05T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "fc8f59b0-6ebd-5599-bf7f-d96566544022",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe IT Betics",
+       "chuThePhapLy": "CÔNG TY TNHH DƯỢC THẢO VIỆT ÍCH THÁI",
+       "soGiayPhep": "9331/2021/ĐKSP",
+       "ngayCap": "2021-10-13T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "c09b3c23-ea46-5822-91a8-66afa051ca5d",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Sun Betics Gold",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN KỸ THUẬT VÀ ĐẦU TƯ THƯƠNG MẠI SUNFLOWER VIỆT NAM",
+       "soGiayPhep": "8608/2021/ĐKSP",
+       "ngayCap": "2021-09-23T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "06b744e0-5099-5581-a81c-c7456643a626",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Chaga -Betics",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM LINH NGỌC",
+       "soGiayPhep": "11844/2020/ĐKSP",
+       "ngayCap": "2020-11-30T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "35fac76b-eda4-5cce-853c-446a69a978da",
+       "tenSanPham": "Thực phẩm bảo vệ sức khoẻ DK-BETICS GOLD",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC KHOA",
+       "soGiayPhep": "7615/2020/ĐKSP",
+       "ngayCap": "2020-08-13T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-xac-nhan-quang-cao",
+     "params": {
+      "sanPham": "Betics",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gxnqc_Betics.json",
+     "totalCount": 4,
+     "items": [
+      {
+       "id": "b2e0a0b2-bdfc-55ec-ad55-e1937586ade9",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe CHAGABETICS GOLD",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM LINH NGỌC",
+       "soGiayPhep": "961/2023/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "3875/2023/ĐKSP",
+       "soBanCongBo": "1/2023/2300780996-DKCB",
+       "ngayCap": "2023-05-29T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "1209edda-f2b9-54c4-843d-8192a077de1f",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe DK - BETICS PLATINUM",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC KHOA",
+       "soGiayPhep": "1715/2022/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "",
+       "soBanCongBo": "",
+       "ngayCap": "2022-10-24T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "0d61b82d-7e54-55d3-b6c0-b17b63927c87",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Chaga -Betics",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM LINH NGỌC",
+       "soGiayPhep": "226/2021/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "11844/2020/ĐKSP",
+       "soBanCongBo": "2/2020/2300780996-DKCB",
+       "ngayCap": "2021-01-25T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "a9680989-1362-59c2-823a-423b2d202430",
+       "tenSanPham": "Thực phẩm bảo vệ sức khoẻ DK-BETICS GOLD",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC KHOA",
+       "soGiayPhep": "3433/2020/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "7615/2020/ĐKSP",
+       "soBanCongBo": "4/2020/0101326329-DKCB",
+       "ngayCap": "2020-10-23T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    }
+   ],
+   "related": "DK - BETICS PLATINUM (cùng DN Dược Khoa) có GXNQC 1715/2022/XNQC-ATTP nhưng soGiayTiepNhanCongBo rỗng trong API."
+  },
+  "Non Alco": {
+   "verdict": "Có trong registry. ĐKSP 4993/2024/ĐKSP (19/06/2024), CÔNG TY CỔ PHẦN DƯỢC PHẨM VITATH. KHÔNG tìm thấy GXNQC: API GXNQC (tên SP, số 4993/2024, DN VITATH) và các danh sách GXNQC của VFA từ 12/2023 đến 15/05/2025 đều không có NON ALCO. GXNQC cấp sau 15/05/2025 không có nguồn công khai để kiểm.",
+   "lookups": [
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+     "params": {
+      "sanPham": "Non Alco",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gtncb_Non-Alco.json",
+     "totalCount": 1,
+     "items": [
+      {
+       "id": "057a28de-debb-5917-b8dc-e082b4379a8f",
+       "tenSanPham": "Thực phẩm bảo vệ sức khoẻ NON ALCO",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM VITATH",
+       "soGiayPhep": "4993/2024/ĐKSP",
+       "ngayCap": "2024-06-19T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-xac-nhan-quang-cao",
+     "params": {
+      "sanPham": "Non Alco",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gxnqc_Non-Alco.json",
+     "totalCount": 0,
+     "items": []
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-xac-nhan-quang-cao",
+     "params": {
+      "soGiayPhep": "4993/2024",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gxnqc_so_4993-2024_NonAlcoDKSP.json",
+     "totalCount": 0,
+     "items": []
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-xac-nhan-quang-cao",
+     "params": {
+      "tenDoanhNghiep": "VITATH",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gxnqc_dn_VITATH.json",
+     "totalCount": 6,
+     "items": [
+      {
+       "id": "24da3c40-0ef1-5e2a-a262-db5c7b5fb3b7",
+       "tenSanPham": "Thực phẩm bảo vệ sức khoẻ AKI HYDROLYZED COLLAGEN",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM VITATH",
+       "soGiayPhep": "1012/2024/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "6501/2023/ĐKSP",
+       "soBanCongBo": "6/2023/0110056767-DKCB",
+       "ngayCap": "2024-05-27T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "eb0e2943-8dc7-541c-88ae-5ffa4c2f2f9a",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Gluta Diamond",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM VITATH",
+       "soGiayPhep": "1011/2024/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "6472/2023/ĐKSP",
+       "soBanCongBo": "4/2023/0110056767-DKCB",
+       "ngayCap": "2024-05-27T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "3a3cd9f5-bcbf-5e55-b235-4f3183e889a1",
+       "tenSanPham": "Thực phẩm bảo vệ sức khoẻ Eva Aki",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM VITATH",
+       "soGiayPhep": "900/2024/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "7917/2023/ĐKSP",
+       "soBanCongBo": "1/2023/0110056767-DKCB",
+       "ngayCap": "2024-05-13T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "bde7e02d-bcb6-52a6-a629-2a0f00bc11bc",
+       "tenSanPham": "Thực phẩm bảo vệ sức khoẻ NGỦ NGON AKI",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM VITATH",
+       "soGiayPhep": "901/2024/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "9185/2023/ĐKSP",
+       "soBanCongBo": "11/2023/0110056767-DKCB",
+       "ngayCap": "2024-05-13T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "572095ea-cab6-533f-91fb-d0cfdc15f179",
+       "tenSanPham": "Thực phẩm bảo vệ sức khoẻ Rhino Đế Vương",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM VITATH",
+       "soGiayPhep": "359/2024/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "8131/2023/ĐKSP",
+       "soBanCongBo": "10/2023/0110056767-DKCB",
+       "ngayCap": "2024-03-06T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "6fbee3c5-2442-5848-9c9e-89990524d56b",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe AkiDibe",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC PHẨM VITATH",
+       "soGiayPhep": "2190/2023/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "6411/2023/ĐKSP",
+       "soBanCongBo": "5/2023/0110056767-DKCB",
+       "ngayCap": "2023-11-06T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    }
+   ],
+   "vfa_gxnqc_lists_checked": [
+    "DS_CAP_HS_QC_1_12_2023_31_8_2024.xlsx",
+    "thang-9_2024.xlsx",
+    "DS_HO_SO_CAP_PHEP_9_10_11_2024.xlsx",
+    "DS_GIAY_XNQC_TH11_12_2024.xlsx",
+    "DS_XNQC_TH_QUY1_2025.xlsx",
+    "DS_CAP_HS_QC_1_9_2024_den_15_5_2025 (xls -> xlsx)"
+   ]
+  },
+  "Slimaura Care x3": {
+   "verdict": "'Slimaura' / 'Slim aura' / 'Aura Care': 0 kết quả (ĐKSP và GXNQC). Tên gần nhất trong registry: 'SLIMMING CARE X3' — ĐKSP 1665/2021/ĐKSP (25/02/2021), GXNQC 1245/2024/XNQC-ATTP (18/06/2024), CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM. CHƯA xác nhận đây là cùng sản phẩm (cần đối chiếu nhãn/bao bì).",
+   "lookups": [
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+     "params": {
+      "sanPham": "Slimaura",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gtncb_Slimaura.json",
+     "totalCount": 0,
+     "items": []
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-xac-nhan-quang-cao",
+     "params": {
+      "sanPham": "Slimaura",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gxnqc_Slimaura.json",
+     "totalCount": 0,
+     "items": []
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+     "params": {
+      "sanPham": "Slim aura",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gtncb_Slim-aura.json",
+     "totalCount": 0,
+     "items": []
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+     "params": {
+      "sanPham": "Aura Care",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gtncb_Aura-Care.json",
+     "totalCount": 0,
+     "items": []
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+     "params": {
+      "sanPham": "Slimming Care",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gtncb_Slimming-Care.json",
+     "totalCount": 4,
+     "items": [
+      {
+       "id": "b27f37ef-4b2f-548b-b075-f817aa62093f",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe  POMELO SLIMMING CARE",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "8356/2021/ĐKSP",
+       "ngayCap": "2021-09-17T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "b4587144-21de-53c0-96be-a2b59ef0343b",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe SLIMMING CARE X3",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "1665/2021/ĐKSP",
+       "ngayCap": "2021-02-25T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "efd04d80-2491-5644-a373-d9222d94aff9",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe SLIMMING CARE CHOCOLATE",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "10776/2020/ĐKSP",
+       "ngayCap": "2020-10-30T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "7e98d745-7a8e-5007-9bbb-5117f256027a",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Thảo mộc SLIMMING CARE",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "917/2019/ĐKSP",
+       "ngayCap": "2019-01-22T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-xac-nhan-quang-cao",
+     "params": {
+      "sanPham": "Slimming Care",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gxnqc_Slimming-Care.json",
+     "totalCount": 3,
+     "items": [
+      {
+       "id": "e954b4f0-bcb2-5979-8506-58fd71f23a69",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe SLIMMING CARE X3",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "1245/2024/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "1665/2021/ĐKSP",
+       "soBanCongBo": "1/2021/0106714879-DKCB",
+       "ngayCap": "2024-06-18T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "ae7506df-f6a2-5cce-973f-478860d9c4ac",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe  POMELO SLIMMING CARE",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "2750/2021/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "8356/2021/ĐKSP",
+       "soBanCongBo": "2/2021/0106714879-DKCB",
+       "ngayCap": "2021-10-04T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "2d79d197-fb26-5015-a35f-f18cee596279",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe SLIMMING CARE CHOCOLATE",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "3649/2020/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "10776/2020/ĐKSP",
+       "soBanCongBo": "1/2020/0106714879-DKCB",
+       "ngayCap": "2020-11-11T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+     "params": {
+      "tenDoanhNghiep": "SLIMMING CARE",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gtncb_dn_SLIMMING-CARE.json",
+     "totalCount": 5,
+     "items": [
+      {
+       "id": "b27f37ef-4b2f-548b-b075-f817aa62093f",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe  POMELO SLIMMING CARE",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "8356/2021/ĐKSP",
+       "ngayCap": "2021-09-17T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "b4587144-21de-53c0-96be-a2b59ef0343b",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe SLIMMING CARE X3",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "1665/2021/ĐKSP",
+       "ngayCap": "2021-02-25T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "efd04d80-2491-5644-a373-d9222d94aff9",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe SLIMMING CARE CHOCOLATE",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "10776/2020/ĐKSP",
+       "ngayCap": "2020-10-30T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "46aaada5-f227-5458-8df1-e61cf4d2fbd2",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Thảo mộc YUMMY PLUS",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "1088/2019/ĐKSP",
+       "ngayCap": "2019-01-28T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "7e98d745-7a8e-5007-9bbb-5117f256027a",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Thảo mộc SLIMMING CARE",
+       "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM",
+       "soGiayPhep": "917/2019/ĐKSP",
+       "ngayCap": "2019-01-22T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    }
+   ],
+   "vfa_gxnqc_list_hit": "DS_CAP_HS_QC_1_12_2023_31_8_2024.xlsx dòng 1504: CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM | SLIMMING CARE X3 | nộp 6/5/2024 | hẹn trả 6/19/2024 | Hồ sơ đã hoàn tất (danh sách này không có cột số GXNQC)."
+  }
+ },
+ "numbers": {
+  "838/2024/ĐKSP": {
+   "verdict": "Thuộc 'Thực phẩm bảo vệ sức khỏe LEKITER CALZBONE KIDDY' — CÔNG TY TNHH LEKING PHARMA, cấp 23/01/2024. KHÔNG khớp DK-Betics Gold / Non Alco / Slimaura (Slimming) Care X3. Nếu người bán gắn số này cho một trong 3 SKU thì số và tên không khớp. Lưu ý '838/2024/XNQC-ATTP' là một GXNQC khác (GINKGO LEAF & DHA.EPA).",
+   "lookups": [
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+     "params": {
+      "soGiayPhep": "838/2024/ĐKSP",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gtncb_so_838-2024.json",
+     "totalCount": 6,
+     "items": [
+      {
+       "id": "74c8c8db-add9-5945-a568-66b180dc9ab8",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Zin.V",
+       "chuThePhapLy": "CÔNG TY TNHH ROSA GARDEN VIỆT NAM",
+       "soGiayPhep": "5838/2024/ĐKSP",
+       "ngayCap": "2024-08-14T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "98c15841-7ea7-5fd0-892c-c43b5adec647",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Lip MTHF",
+       "chuThePhapLy": "CÔNG TY TNHH MAB VIỆT NAM",
+       "soGiayPhep": "4838/2024/ĐKSP",
+       "ngayCap": "2024-06-11T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "cc5cdad2-b4a8-5087-a41f-f6f5925a5b21",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe MAGNEFUR B6",
+       "chuThePhapLy": "CÔNG TY TNHH PHÁT TRIỂN DƯỢC PHẨM EVICO",
+       "soGiayPhep": "3838/2024/ĐKSP",
+       "ngayCap": "2024-04-25T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "dd7c1d37-ced0-50eb-8296-4d0c66cabc70",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe NAM DƯƠNG BỔ THẬN VƯƠNG",
+       "chuThePhapLy": "CÔNG TY TNHH DƯỢC PHẨM QUỐC TẾ TTB GROUP",
+       "soGiayPhep": "2838/2024/ĐKSP",
+       "ngayCap": "2024-03-25T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "84d84721-cade-54f8-8191-05f9bb498323",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Alpha Bio Enteromina",
+       "chuThePhapLy": "CÔNG TY TNHH NHẤT TÂM PHARMA",
+       "soGiayPhep": "1838/2024/ĐKSP",
+       "ngayCap": "2024-02-27T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "2b4b7e14-92eb-54bb-a40e-9789a77e0d6d",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe LEKITER CALZBONE KIDDY",
+       "chuThePhapLy": "CÔNG TY TNHH LEKING PHARMA",
+       "soGiayPhep": "838/2024/ĐKSP",
+       "ngayCap": "2024-01-23T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-xac-nhan-quang-cao",
+     "params": {
+      "soGiayPhep": "838/2024",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gxnqc_so_838-2024.json",
+     "totalCount": 2,
+     "items": [
+      {
+       "id": "18f80a10-6af9-5076-9f61-984bc1ecaf77",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe Bột hòa tan HÀ THỦ Ô KA",
+       "chuThePhapLy": "CÔNG TY TNHH THẢO DƯỢC ÔNG BA ĐẤT PHÈN",
+       "soGiayPhep": "1838/2024/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "12583/2020/ĐKSP",
+       "soBanCongBo": "3/2020/0304170042-DKCB",
+       "ngayCap": "2024-08-31T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      },
+      {
+       "id": "dbed1a37-042c-5f6a-b89b-ab1575d7e59c",
+       "tenSanPham": "Thực phẩm bảo vệ sức khỏe GINKGO LEAF & DHA.EPA",
+       "chuThePhapLy": "Công ty TNHH Hàng nội địa Nhật Bản Hoàng Quân",
+       "soGiayPhep": "838/2024/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "2050/2024/ĐKSP",
+       "soBanCongBo": "3/2023/0314946711-DKCB",
+       "ngayCap": "2024-05-07T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    }
+   ]
+  },
+  "3433/2020": {
+   "verdict": "Mơ hồ nếu thiếu hậu tố: 3433/2020/XNQC-ATTP = GXNQC của DK-BETICS GOLD (ĐKSP 7615/2020); 3433/2020/ĐKSP = ĐKSP của VIMIRADS MULTIVITAMIN (CÔNG TY CỔ PHẦN DANSON GROUP, 20/04/2020).",
+   "lookups": [
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+     "params": {
+      "soGiayPhep": "3433/2020",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gtncb_so_3433-2020.json",
+     "totalCount": 1,
+     "items": [
+      {
+       "id": "5264e5c1-dd24-5984-ab39-74cd167516d2",
+       "tenSanPham": "THỰC PHẨM BẢO VỆ SỨC KHỎE VIMIRADS MULTIVITAMIN",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DANSON GROUP",
+       "soGiayPhep": "3433/2020/ĐKSP",
+       "ngayCap": "2020-04-20T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    },
+    {
+     "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-xac-nhan-quang-cao",
+     "params": {
+      "soGiayPhep": "3433/2020",
+      "skipCount": 0,
+      "maxResultCount": 50
+     },
+     "raw_file": "_raw/attp_api/gxnqc_so_3433-2020.json",
+     "totalCount": 1,
+     "items": [
+      {
+       "id": "a9680989-1362-59c2-823a-423b2d202430",
+       "tenSanPham": "Thực phẩm bảo vệ sức khoẻ DK-BETICS GOLD",
+       "chuThePhapLy": "CÔNG TY CỔ PHẦN DƯỢC KHOA",
+       "soGiayPhep": "3433/2020/XNQC-ATTP",
+       "soGiayTiepNhanCongBo": "7615/2020/ĐKSP",
+       "soBanCongBo": "4/2020/0101326329-DKCB",
+       "ngayCap": "2020-10-23T00:00:00",
+       "trangThai": 0,
+       "daThuHoi": false,
+       "ngayThuHoi": null,
+       "fileDinhKemHoSo": [],
+       "danhSachTuocQuyen": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "recall_status_test": {
+  "note": "Đối chứng: số đã bị thu hồi theo QĐ 136/QĐ-ATTP (17/06/2026) vẫn hiện như còn hiệu lực trên API.",
+  "lookup": {
+   "endpoint": "https://gateway-api-antoanthucpham.moh.gov.vn/api/attp/tra-cuu-giay-phep/giay-tiep-nhan-cong-bo",
+   "params": {
+    "soGiayPhep": "3984/2019/ĐKSP",
+    "skipCount": 0,
+    "maxResultCount": 50
+   },
+   "raw_file": "_raw/attp_api/gtncb_so_3984-2019_QD136.json",
+   "totalCount": 1,
+   "items": [
+    {
+     "id": "6c12e059-d699-5556-a07c-9bdfd92e821d",
+     "tenSanPham": "Thực phẩm bảo vệ sức khoẻ PROJEL GLUTATHIONE WHITE",
+     "chuThePhapLy": "CÔNG TY TNHH THƯƠNG MẠI DƯỢC PHẨM MINH HẠNH",
+     "soGiayPhep": "3984/2019/ĐKSP",
+     "ngayCap": "2019-04-17T00:00:00",
+     "trangThai": 0,
+     "daThuHoi": false,
+     "ngayThuHoi": null,
+     "fileDinhKemHoSo": [],
+     "danhSachTuocQuyen": []
+    }
+   ]
+  }
+ }
+}

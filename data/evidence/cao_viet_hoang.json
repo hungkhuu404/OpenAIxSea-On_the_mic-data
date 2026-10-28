@@ -1,0 +1,55 @@
+{
+  "sku_id": "cao_viet_hoang",
+  "product_name": "Thực phẩm bảo vệ sức khoẻ CAO VIỆT HOÀNG",
+  "trade_names_seen": ["Cao Việt Hoàng", "Cao Việt Hoàng - Xử lý dạ dày Việt", "Cao dạ dày Việt Hoàng"],
+  "category": "TPBVSK",
+  "company": "CÔNG TY TNHH NGHIÊN CỨU VÀ PHÁT TRIỂN CAO VIỆT HOÀNG (Nhà 6NV3 khu đô thị Lideco, thị trấn Trạm Trôi, huyện Hoài Đức, Hà Nội)",
+  "registration": {
+    "dksp_number": "4340/2023/ĐKSP",
+    "status": "match",
+    "registry_rows": [
+      {"stt": "58769", "so_giay": "4340/2023/ĐKSP", "to_chuc": "CÔNG TY TNHH NGHIÊN CỨU VÀ PHÁT TRIỂN CAO VIỆT HOÀNG", "ten_san_pham": "Thực phẩm bảo vệ sức khoẻ CAO VIỆT HOÀNG", "role": "khớp SKU"},
+      {"stt": "62479", "so_giay": "7839/2023/ĐKSP", "to_chuc": "CÔNG TY TNHH NGHIÊN CỨU VÀ PHÁT TRIỂN CAO VIỆT HOÀNG", "ten_san_pham": "Thực phẩm bảo vệ sức khoẻ Dạ Dày SAWA", "role": "sản phẩm khác cùng công ty"},
+      {"stt": "72065", "so_giay": "968/2024/ĐKSP", "to_chuc": "CÔNG TY TNHH NGHIÊN CỨU VÀ PHÁT TRIỂN CAO VIỆT HOÀNG", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe DẠ DÀY AN VIỆT", "role": "sản phẩm khác cùng công ty"}
+    ],
+    "note": "Cảnh báo VFA 17/06/2025 không nêu số; số lấy từ registry theo tên + công ty (chưa có nguồn thứ hai xác nhận số trên nhãn)."
+  },
+  "ad_confirmation": {"gxnqc_number": null, "issuer": null, "status": "unknown", "sources": [], "note": "VFA nêu 'Quảng cáo không phù hợp với một trong các tài liệu theo quy định' nhưng không nói có/không GXNQC. qc_2023_2024.csv không có dòng cho Cao Việt Hoàng."},
+  "recalls": [],
+  "sanctions": [
+    {"date": "2025-06-20", "authority": "Cục trưởng Cục An toàn thực phẩm", "decision_no": "12/QĐ-XPHC (theo báo Đại biểu Nhân dân, chưa thấy bản gốc)", "violation": "quảng cáo thực phẩm thiếu nội dung khuyến cáo về nguy cơ, cảnh báo đối tượng không được sử dụng", "url": "https://daibieunhandan.vn/cong-ty-tnhh-nghien-cuu-va-phat-trien-cao-viet-hoang-khac-phuc-vi-pham-quang-cao-thuc-pham-10389002.html"}
+  ],
+  "permitted_claims": [
+    {
+      "text": "hỗ trợ giảm triệu chứng ợ hơi, ợ chua do viêm loét dạ dày, tá tràng, hỗ trợ giảm acid dịch vị, hỗ trợ bảo vệ niêm mạc dạ dày...",
+      "source_type": "regulator",
+      "source_detail": "Tạp chí Kinh tế - Tài chính (Thuế - Hải quan) 18/06/2025: 'Cao Việt Hoàng đã được Bộ Y tế cấp phép với công dụng ...'. Không rõ báo lấy từ hồ sơ hay từ quảng cáo của hãng → độ tin cậy trung bình.",
+      "url": "https://thuehaiquan.tapchikinhtetaichinh.vn/bo-y-te-canh-bao-quang-cao-sai-lech-thuc-pham-bao-ve-suc-khoe-96425.html",
+      "retrieved_at": "2026-10-22",
+      "confidence": "medium"
+    },
+    {
+      "text": "Cao Việt Hoàng là thực phẩm bảo vệ sức khỏe giúp hỗ trợ giảm acid dịch vị, bảo vệ niêm mạc dạ dày, và giảm các triệu chứng ợ hơi, ợ chua do viêm loét dạ dày - tá tràng.",
+      "source_type": "marketplace_listing",
+      "source_detail": "Mô tả video YouTube 7btXszpLe5A (kênh người bán 'GREEN BEAUTY', 15/10/2025) — khớp nguồn báo ở trên.",
+      "url": "https://www.youtube.com/watch?v=7btXszpLe5A",
+      "retrieved_at": "2026-10-22",
+      "confidence": "low"
+    }
+  ],
+  "ingredients_declared": [
+    {"text": "10 g cao mềm từ hỗn hợp : Khương hoàng 5g, Mộc hương 5g, Cam thảo 5g, Lá khôi 10g, Hoàng liên 2g, Hương phụ chế 5g, Chè dây 20g, Bạch truật 10g, Dạ cẩm 20g, Thanh bì 5g, Mật ong 15g. + Thành phần khác: Natri benzoate, nước tinh khiết + Dạng bào chế: Cao dẻo", "source": "https://chiaki.vn/cao-viet-hoang-ho-tro-bao-ve-niem-mac-da-day-hop-100g", "confidence": "low"}
+  ],
+  "mandatory_phrases_observed": {"category_phrase_on_label": null, "disclaimer_text": "Thực phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh.", "disclaimer_source": "listing chiaki.vn (dấu phẩy, không có 'và')"},
+  "origin_declared": {"text": "Việt Nam", "source": "https://chiaki.vn/cao-viet-hoang-ho-tro-bao-ve-niem-mac-da-day-hop-100g"},
+  "regulator_warnings": [
+    {"date": "2025-06-17", "url": "https://vfa.gov.vn/tin-tuc/canh-bao-thuc-pham-bao-ve-suc-khoe-cao-viet-hoang-dang-quang-cao-vi-pham-quy-dinh-phap-luat.html",
+     "excerpt": "Quảng cáo thực phẩm chức năng gây hiểu nhầm có tác dụng như thuốc chữa bệnh; Đăng tải, dẫn, trích dẫn hoặc nêu ý kiến người bệnh mô tả thực phẩm có tác dụng điều trị bệnh; Quảng cáo không phù hợp với một trong các tài liệu theo quy định; Quảng cáo thực phẩm, phụ gia thực phẩm thiếu một trong các nội dung: khuyến cáo về nguy cơ, cảnh báo đối tượng không được sử dụng ... Tại buổi làm việc đại diện Công ty không thừa nhận 02 website nêu trên là của Công ty."}
+  ],
+  "violating_sites_named": ["caoviethoang.com (22/10/2026: tên miền đã thành trang cờ bạc spam)", "caoviethoang-chinhhang.com (không kết nối được)"],
+  "gaps": [
+    "Website chính thức phattriencaoviethoang.com không phân giải DNS (22/10/2026) → không lấy được nhãn/công dụng từ hãng.",
+    "Công dụng được phép chỉ có qua một bài báo và kênh người bán; chưa có ảnh nhãn.",
+    "Không rõ có GXNQC hay không."
+  ]
+}

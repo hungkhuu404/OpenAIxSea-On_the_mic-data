@@ -1,0 +1,51 @@
+{
+  "_note": "Model and parameter names as read in the OpenAI docs on 2026-10-21. gpt-transcribe parameter names (keywords, languages) are NOT verified: if a variant returns HTTP 400, read the error, fix the field name here, and rerun with --only. Prices are USD per audio minute.",
+  "variants": [
+    {
+      "id": "diarize_vi",
+      "model": "gpt-4o-transcribe-diarize",
+      "fields": {"response_format": "diarized_json", "chunking_strategy": "auto", "language": "vi"},
+      "usd_per_min": 0.006,
+      "why": "Only model with speaker + start/end. Also answers: is language=vi accepted?"
+    },
+    {
+      "id": "diarize_auto",
+      "model": "gpt-4o-transcribe-diarize",
+      "fields": {"response_format": "diarized_json", "chunking_strategy": "auto"},
+      "usd_per_min": 0.006,
+      "why": "Same, language auto-detected; fallback if 'vi' is rejected"
+    },
+    {
+      "id": "transcribe_vi",
+      "model": "gpt-transcribe",
+      "fields": {"response_format": "json", "language": "vi"},
+      "usd_per_min": 0.0045,
+      "why": "Recommended current model; text quality baseline, no speakers/timestamps documented"
+    },
+    {
+      "id": "transcribe_vi_kw",
+      "model": "gpt-transcribe",
+      "fields": {"response_format": "json", "language": "vi", "keywords": "$KEYWORDS"},
+      "usd_per_min": 0.0045,
+      "why": "Do product names / ingredients from keywords.txt come out right?"
+    },
+    {
+      "id": "whisper_vi_ts",
+      "model": "whisper-1",
+      "fields": {"response_format": "verbose_json", "language": "vi", "timestamp_granularities": ["segment"]},
+      "usd_per_min": 0.006,
+      "why": "Deprecated fallback that still returns segment timestamps (no speakers)"
+    },
+    {
+      "id": "hybrid_kw",
+      "type": "hybrid",
+      "segments_from": ["diarize_vi", "diarize_auto"],
+      "model": "gpt-transcribe",
+      "fields": {"response_format": "json", "language": "vi", "keywords": "$KEYWORDS"},
+      "min_turn_s": 4,
+      "max_turn_s": 30,
+      "usd_per_min": 0.0045,
+      "why": "Speaker turns + timestamps from diarize, text re-transcribed per turn with keywords"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Keep LF on every machine: verbatim law quotes are checked as exact substrings.
+* text=auto eol=lf

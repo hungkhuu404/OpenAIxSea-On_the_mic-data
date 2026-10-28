@@ -1,0 +1,119 @@
+{
+  "sku_id": "kera",
+  "generated_at": "2026-10-22",
+  "naming_policy": "[KOL 1] = KOL nam, chủ phiên live; [KOL 2] = KOL nữ, chủ phiên live; [KOL 3] = hoa hậu, khách mời.",
+  "summary": {
+    "session_count": 6,
+    "window": {"from": "2024-12-12", "to": "2025-01-16"},
+    "platform": "TikTok (phát trực tiếp trên kênh TikTok cá nhân của [KOL 2] và [KOL 1])",
+    "participation_counts": {"[KOL 1]": 6, "[KOL 2]": 5, "[KOL 3]": 3},
+    "sources": [
+      {"url": "https://tuoitre.vn/plo/vu-keo-rau-cu-kera-len-y-tuong-2-vien-keo-tuong-ung-1-dia-rau-muon-trang-trai-de-quang-cao-post869345.html", "date": "2025-09-07", "raw_file": "_raw/plo_2vien_ytuong.txt", "excerpt": "Trong các ngày 12-12-2024, 15-12-2024, 4-1-2025, 8-1-2025, 14-1-2025 và 16-1-2025, trên các kênh Tiktok cá nhân của [KOL 2] và [KOL 1] phát sóng trực tiếp ([KOL 3] tham gia 3 ngày) để quảng bá và bán kẹo Kera.", "confidence": "high"},
+      {"url": "https://lsvn.vn/de-nghi-giam-an-cho-thuy-tien-quang-linh-vlog-trong-vu-an-keo-rau-cu-kera-a166128.html", "date": "2025-11-19", "raw_file": "_raw/lsvn_caotrang.txt", "excerpt": "[KOL 2] thực hiện, tham gia phát sóng trực tiếp 5 lần; [KOL 1] thực hiện, tham gia phát sóng trực tiếp 6 lần; [KOL 3] tham gia phát sóng trực tiếp 3 lần.", "confidence": "high"},
+      {"url": "https://vnexpress.net/hoa-hau-thuy-tien-hang-du-muc-quang-linh-vlogs-bi-phat-2-nam-tu-4965935.html", "date": "2025-11-19", "raw_file": "_raw/vnexpress_banan.txt", "excerpt": "Từ ngày 12/12/2024 đến 16/1/2025, nhóm này có 6 buổi livestream quảng cáo sản phẩm, trong đó [KOL 3] tham gia ba buổi", "confidence": "high"},
+      {"url": "https://vnexpress.net/tu-con-sot-mang-xa-hoi-den-be-boi-quang-cao-keo-rau-cu-kera-4936616.html", "date": "2025-09-09", "raw_file": "_raw/vnexpress_consot.txt", "excerpt": "Trên các kênh Tiktok cá nhân của [KOL 1] và [KOL 2] đã diễn ra 6 buổi livestream quảng cáo, giới thiệu công dụng và bán sản phẩm, từ 12/12/2024 đến 16/1/2025.", "confidence": "high"}
+    ],
+    "discrepancies": [
+      "Dễ nhầm: theo các nguồn, 12/12/2024–14/3/2025 là khoảng BÁN HÀNG (cáo trạng, LSVN); 6 phiên livestream chỉ nằm trong 12/12/2024–16/01/2025.",
+      "VnExpress 06/09/2025 (kết luận điều tra) viết '5 phiên phát sóng trực tiếp ... vào các ngày đầu năm 2025', trong khi danh sách ngày (PLO) có 2 phiên tháng 12/2024 và 4 phiên tháng 01/2025. Có thể ý là 5 phiên sau phiên đầu tiên. Không tự giải quyết.",
+      "Không nguồn nào cho biết [KOL 3] tham gia 3 phiên nào, và [KOL 2] vắng phiên nào."
+    ]
+  },
+  "dossier_state_reference": "Xem dossier.json → timepoint_states. Bản tự công bố ký 17/12/2024, nộp Sở ATTP TP.HCM 23/12/2024, bị buộc thu hồi 24/3/2025.",
+  "sessions": [
+    {
+      "session_no": 1,
+      "date": "2024-12-12",
+      "platform": "TikTok",
+      "channel_host": "[KOL 2]",
+      "channel_host_confidence": "medium",
+      "participants": {"[KOL 1]": "có (high)", "[KOL 2]": "có (high)", "[KOL 3]": "có khả năng (medium)"},
+      "dossier_state_at_broadcast": "CHƯA_CÓ_HỒ_SƠ (trước ngày ký 17/12 và ngày nộp 23/12/2024)",
+      "product_available": false,
+      "sales": {"orders": 2836, "boxes": 3109, "revenue_vnd_approx": 400000000, "note": "khách phải đợi 7–14 ngày vì nhóm chưa có sản phẩm"},
+      "quoted_claims": ["kera-q-001"],
+      "notes": [
+        "VTV 09/09/2025: [thành viên HĐQT CER] đề nghị sản xuất ngay 'do ngày 12/12/2024 [KOL 2] sẽ có phiên livestream để bán hàng với số lượng lớn trên Tiktok'; 'Sau phiên livestream ngày 12/12/2024 của [KOL 2]…'.",
+        "Thanh Niên 06/09/2025 đặt tít 'Một phiên live [KOL 3] xuất hiện, thu về hơn 400 triệu đồng' và nói 'Chỉ riêng phiên livestream ngày 12.12.2024 … hơn 400 triệu' → suy ra [KOL 3] có mặt phiên này (medium).",
+        "Ảnh trong bài Sở hữu trí tuệ 06/03/2025 cho thấy cả ba người trong một phiên live có trang trí Giáng sinh và logo kênh [KOL 2] (_raw/img/shtt_keo2.jpg) — khớp một phiên tháng 12, không xác định được 12/12 hay 15/12.",
+        "Mâu thuẫn số liệu: Thanh Niên 06/09/2025 ghi 'hơn 2.800 đơn hàng, tương đương hơn 8.000 hộp'; VnExpress/VTV (kết luận điều tra) ghi 2.836 đơn, 3.109 hộp."
+      ],
+      "sources": [
+        {"url": "https://vnexpress.net/hoa-hau-thuy-tien-doi-tang-co-phan-vi-keo-kera-dat-khach-4936003.html", "date": "2025-09-06", "raw_file": "_raw/vnexpress_tangcophan.txt", "excerpt": "Trong phiên livestream đầu tiên hôm 12/12/2024, nhóm chưa có sản phẩm nên khách phải đợi 7-14 ngày. Dù vậy, buổi phát sóng đã bán được 2.836 đơn hàng, tổng cộng 3.109 hộp kẹo."},
+        {"url": "https://vtv.vn/vu-an-keo-kera-tu-y-tuong-vi-thuy-tien-khong-thich-an-rau-den-lua-doi-nguoi-tieu-dung-100250909101340944.htm", "date": "2025-09-09", "raw_file": "_raw/vtv_khongthichanrau.txt"},
+        {"url": "https://tuoitre.vn/keo-kera-chua-thuoc-xo-hoa-hau-thuy-tien-van-quang-cao-dung-duoc-cho-tre-nho-va-ba-bau-20250923071536891.htm", "date": "2025-09-23", "raw_file": "_raw/tuoitre_thuocxo_20250923.txt", "excerpt": "Đến phiên livestream đầu tiên được phát ngày 12-12-2024, [KOL 1] ... quảng cáo gian dối rằng \"một viên này sẽ tương ứng với một đĩa rau luộc của mọi người, cái bữa ăn trưa hay ăn tối gì đó...\"."},
+        {"url": "https://thanhnien.vn/mot-phien-live-hoa-hau-thuy-tien-xuat-hien-thu-ve-hon-400-trieu-dong-185250905200713698.htm", "date": "2025-09-06", "raw_file": "_raw/thanhnien_400tr.txt"}
+      ]
+    },
+    {
+      "session_no": 2,
+      "date": "2024-12-15",
+      "platform": "TikTok",
+      "channel_host": null,
+      "participants": {"[KOL 1]": "có (high, tham gia cả 6 phiên)", "[KOL 2]": "không rõ (vắng 1 trong 6 phiên)", "[KOL 3]": "không rõ"},
+      "dossier_state_at_broadcast": "CHƯA_CÓ_HỒ_SƠ (trước ngày ký 17/12 và ngày nộp 23/12/2024)",
+      "quoted_claims": [],
+      "notes": ["Không có câu trích nào gắn với ngày này."],
+      "sources": [{"url": "https://tuoitre.vn/plo/vu-keo-rau-cu-kera-len-y-tuong-2-vien-keo-tuong-ung-1-dia-rau-muon-trang-trai-de-quang-cao-post869345.html", "date": "2025-09-07", "raw_file": "_raw/plo_2vien_ytuong.txt"}]
+    },
+    {
+      "session_no": 3,
+      "date": "2025-01-04",
+      "platform": "TikTok",
+      "channel_host": null,
+      "participants": {"[KOL 1]": "có (high)", "[KOL 2]": "không rõ", "[KOL 3]": "không rõ"},
+      "dossier_state_at_broadcast": "HIỆU_LỰC",
+      "quoted_claims": [],
+      "notes": ["Không có câu trích nào gắn với ngày này."],
+      "sources": [{"url": "https://tuoitre.vn/plo/vu-keo-rau-cu-kera-len-y-tuong-2-vien-keo-tuong-ung-1-dia-rau-muon-trang-trai-de-quang-cao-post869345.html", "date": "2025-09-07", "raw_file": "_raw/plo_2vien_ytuong.txt"}]
+    },
+    {
+      "session_no": 4,
+      "date": "2025-01-08",
+      "platform": "TikTok",
+      "channel_host": null,
+      "participants": {"[KOL 1]": "có (high)", "[KOL 2]": "không rõ", "[KOL 3]": "không rõ"},
+      "dossier_state_at_broadcast": "HIỆU_LỰC",
+      "quoted_claims": [],
+      "notes": ["Không có câu trích nào gắn với ngày này."],
+      "sources": [{"url": "https://tuoitre.vn/plo/vu-keo-rau-cu-kera-len-y-tuong-2-vien-keo-tuong-ung-1-dia-rau-muon-trang-trai-de-quang-cao-post869345.html", "date": "2025-09-07", "raw_file": "_raw/plo_2vien_ytuong.txt"}]
+    },
+    {
+      "session_no": 5,
+      "date": "2025-01-14",
+      "platform": "TikTok",
+      "channel_host": null,
+      "participants": {"[KOL 1]": "có (high)", "[KOL 2]": "không rõ", "[KOL 3]": "không rõ"},
+      "dossier_state_at_broadcast": "HIỆU_LỰC",
+      "quoted_claims": [],
+      "notes": ["Không có câu trích nào gắn với ngày này."],
+      "sources": [{"url": "https://tuoitre.vn/plo/vu-keo-rau-cu-kera-len-y-tuong-2-vien-keo-tuong-ung-1-dia-rau-muon-trang-trai-de-quang-cao-post869345.html", "date": "2025-09-07", "raw_file": "_raw/plo_2vien_ytuong.txt"}]
+    },
+    {
+      "session_no": 6,
+      "date": "2025-01-16",
+      "platform": "TikTok",
+      "channel_host": null,
+      "participants": {"[KOL 1]": "có (high)", "[KOL 2]": "không rõ", "[KOL 3]": "không rõ"},
+      "dossier_state_at_broadcast": "HIỆU_LỰC",
+      "quoted_claims": [],
+      "notes": ["Phiên cuối theo cáo trạng. Không có câu trích nào gắn với ngày này."],
+      "sources": [{"url": "https://tuoitre.vn/plo/vu-keo-rau-cu-kera-len-y-tuong-2-vien-keo-tuong-ung-1-dia-rau-muon-trang-trai-de-quang-cao-post869345.html", "date": "2025-09-07", "raw_file": "_raw/plo_2vien_ytuong.txt"}]
+    }
+  ],
+  "related_non_live_content": [
+    {"what": "Video quay tại 'vùng nguyên liệu' (vườn cà rốt mượn của nông dân, Đắk Lắk; vườn rau Đà Lạt) và tại nhà máy Asia Life, đăng TikTok cá nhân của từng KOL", "date": null, "date_note": "sau phiên 12/12/2024 (PLO: 'Chỉ sau phiên livestream ngày 12-12-2024 ... các bị can mới hỏi về quy trình sản xuất nhưng để phục vụ cho việc quay dựng video')", "speakers": ["[KOL 1]", "[KOL 2]", "[KOL 3]"], "quoted_claims": ["kera-q-009", "kera-q-016", "kera-q-017", "kera-q-018", "kera-q-019", "kera-q-020"], "shoot_dates": {"nhà máy Asia Life": "2025-01-02", "vườn cà rốt mượn + nông trại thuê (Đắk Lắk)": "2025-01-04"}, "shoot_dates_source": "https://tuoitre.vn/plo/vu-keo-rau-cu-kera-len-y-tuong-2-vien-keo-tuong-ung-1-dia-rau-muon-trang-trai-de-quang-cao-post869345.html", "source": "https://tuoitre.vn/plo/vu-keo-rau-cu-kera-len-y-tuong-2-vien-keo-tuong-ung-1-dia-rau-muon-trang-trai-de-quang-cao-post869345.html"},
+    {"what": "Bài đăng Facebook [KOL 3] 'chính thức ra mắt thương hiệu kẹo Kera'", "date": "2024-12-12", "source": "https://ngoisao.vnexpress.net/chieu-tro-ne-trach-nhiem-trong-thuong-vu-keo-kera-cua-hoa-hau-thuy-tien-4888147.html"}
+  ],
+  "after_sessions": [
+    {"date": "2025-02-24", "event": "[KOL 1] đăng bài xin lỗi trên Facebook về câu '1 viên tương đương 1 đĩa rau'; nói các phiên livestream sau đã sửa, không nhắc thông tin đó nữa (theo bản tin SKĐS, phụ đề tự động — chưa kiểm chứng câu này trên text báo)", "source": "https://znews.vn/toan-canh-vu-keo-rau-cu-truoc-khi-quang-linh-hang-du-muc-bi-khoi-to-post1543388.html"},
+    {"date": "2025-03-04", "event": "Một TikToker công bố kết quả kiểm định tại Quatest: 0,51 g xơ tổng/100 g", "source": "https://www.sggp.org.vn/vu-nghi-van-chat-luong-keo-rau-cu-kera-hoa-hau-nguyen-thuc-thuy-tien-xin-loi-giua-dem-post784845.html"},
+    {"date": "2025-03-06", "event": "Cục ATTP đề nghị Sở ATTP TP.HCM và Sở Y tế Đắk Lắk kiểm tra", "source": "https://thoibaotaichinhvietnam.vn/bo-y-te-vao-cuoc-vu-quang-cao-no-thuc-pham-bo-sung-keo-rau-cu-171952.html"},
+    {"date": "2025-03-07", "event": "[KOL 3] đăng bài xin lỗi (khuya 7/3)", "source": "https://www.sggp.org.vn/vu-nghi-van-chat-luong-keo-rau-cu-kera-hoa-hau-nguyen-thuc-thuy-tien-xin-loi-giua-dem-post784845.html"},
+    {"date": "2025-03-14", "event": "Họp báo xin lỗi của CER, [KOL 1], [KOL 2]", "source": "https://baophapluat.vn/chinh-thuc-co-ket-qua-kiem-nghiem-keo-rau-cu-kera-cua-quang-linh-vlogs-va-hang-du-muc-post542933.html"},
+    {"date": "2025-03-20", "event": "Cục PTTH&TTĐT phạt [KOL 1], [KOL 2] mỗi người 70 triệu đồng", "source": "https://www.sggp.org.vn/vien-keo-bang-dia-rau-quang-linh-vlogs-va-hang-du-muc-bi-phat-140-trieu-dong-post786923.html"},
+    {"date": "2025-03-24", "event": "Sở ATTP TP.HCM phạt CER 125 triệu đồng, buộc thu hồi bản tự công bố", "source": "https://vietnamnet.vn/xu-phat-125-trieu-dong-vu-keo-rau-cu-kera-thu-hoi-san-pham-2382563.html"},
+    {"date": "2025-04-03", "event": "Bộ Công an khởi tố vụ án 'Sản xuất hàng giả là thực phẩm và lừa dối khách hàng'", "source": "https://vtv.vn/phap-luat/khoi-to-quang-linh-vlog-va-hang-du-muc-lien-quan-vu-keo-rau-cu-kera-20250404190358518.htm"},
+    {"date": "2025-11-19", "event": "TAND TP.HCM xử sơ thẩm: [KOL 1], [KOL 2], [KOL 3] mỗi người 2 năm tù, tội lừa dối khách hàng (khoản 2 Điều 198 BLHS)", "source": "https://vnexpress.net/hoa-hau-thuy-tien-hang-du-muc-quang-linh-vlogs-bi-phat-2-nam-tu-4965935.html"}
+  ]
+}

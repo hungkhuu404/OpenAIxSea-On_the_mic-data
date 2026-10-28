@@ -1,0 +1,57 @@
+{
+  "sku_id": "kera",
+  "product_name": "Thực phẩm bổ sung SuperGreens Gummies (kẹo rau củ Kera)",
+  "trade_names_seen": ["Kera", "kẹo rau củ Kera", "SuperGreens Gummies", "Super Green Gomit (ASR)"],
+  "category": "thuc_pham_bo_sung",
+  "company": "Công ty Cổ phần Tập đoàn Chị Em Rọt (CER Group) — chủ sở hữu, đứng tên bản tự công bố; sản xuất gia công: Công ty Cổ phần Asia Life (Đắk Lắk)",
+  "registration": {
+    "dksp_number": null,
+    "self_declaration": "Bản tự công bố sản phẩm ngày 17/12/2024 (theo cáo trạng, Luật sư Việt Nam lsvn.vn)",
+    "status": "absent",
+    "registry_rows": [
+      {"stt": "58222", "so_giay": "4773/2023/ĐKSP", "to_chuc": "CÔNG TY TNHH SỨC KHOẺ VÀ SẮC ĐẸP VIỆT", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe Goli Nutrition SuperGreens Gummies", "role": "BẪY TRÙNG TÊN — sản phẩm khác, công ty khác; KHÔNG phải Kera"}
+    ],
+    "note": "Kera là thực phẩm bổ sung (tự công bố), không có số ĐKSP; registry TPBVSK không áp dụng. Tìm 'kera' chỉ ra KERATINE/KERATIN (không liên quan); tìm 'supergreens' ra Goli Nutrition SuperGreens Gummies — so khớp tên mờ sẽ gán nhầm. Bản tự công bố bị Sở ATTP TP.HCM buộc thu hồi ngày 24/3/2025."
+  },
+  "ad_confirmation": {"gxnqc_number": null, "issuer": null, "status": "absent", "sources": [], "note": "Không áp dụng (thực phẩm bổ sung không phải đăng ký nội dung quảng cáo — NĐ 15/2018 Đ26). Chuẩn đối chiếu: bản tự công bố (NĐ 15/2018 Đ27 k2)."},
+  "recalls": [
+    {"date": "2025-03-24", "authority": "Chánh Thanh tra Sở An toàn thực phẩm TP.HCM", "action": "Phạt 125 triệu đồng; buộc thu hồi hàng hóa; buộc thu hồi bản tự công bố sản phẩm", "url": "https://vietnamnet.vn/xu-phat-125-trieu-dong-vu-keo-rau-cu-kera-thu-hoi-san-pham-2382563.html",
+     "excerpt": "nhãn sản phẩm trên hồ sơ tự công bố và nhãn thực tế của sản phẩm Thực phẩm bổ sung Supergreens Gummies không ghi đủ các nội dung bắt buộc ... Kiểm nghiệm sản phẩm có chứa sorbitol nhưng không thể hiện trên nhãn sản phẩm theo quy định. ... buộc thu hồi bản tự công bố sản phẩm đối với sản phẩm thuộc diện tự công bố sản phẩm."}
+  ],
+  "permitted_claims": [
+    {
+      "text": "10 loại bột rau, củ, quả chiếm 28,13%",
+      "source_type": "regulator",
+      "source_detail": "Thành phần ghi trong Bản tự công bố, theo cáo trạng (báo Luật sư Việt Nam trích). Lưu ý: chính con số này sai sự thật (thực tế 0,61–0,75% theo kết luận điều tra) — hồ sơ cũng sai.",
+      "url": "https://lsvn.vn/de-nghi-giam-an-cho-thuy-tien-quang-linh-vlog-trong-vu-an-keo-rau-cu-kera-a166128.html",
+      "retrieved_at": "2026-10-21",
+      "confidence": "medium"
+    }
+  ],
+  "label_claims_not_in_declaration": [
+    {
+      "text": "Khỏe đẹp tự nhiên từ chất xơ",
+      "source_type": "label",
+      "source_detail": "Khẩu hiệu in trên nhãn. Báo PLO 19/09/2025 trích: 'Trên nhãn, sản phẩm được quảng bá bằng khẩu hiệu bắt mắt: “Khỏe đẹp tự nhiên từ chất xơ”'. Ảnh sản phẩm (VTV) in cùng câu; xem data/demo/kera/dossier.json → label_claims.slogan.",
+      "url": "https://tuoitre.vn/plo/vksnd-toi-cao-truy-to-hoa-hau-thuy-tien-quang-linh-vlogs-hang-du-muc-vu-keo-kera-109871188.htm",
+      "retrieved_at": "2026-10-22",
+      "confidence": "high",
+      "why_not_permitted": "Bản tự công bố không có chỉ tiêu chất xơ. Đại diện Sở ATTP TP.HCM (VnExpress 21/03/2025): 'Kẹo Kera được doanh nghiệp quảng cáo chất xơ dù thành phần này không có trong hồ sơ tự công bố sản phẩm trước khi lưu hành, là vi phạm quy định về quảng cáo'. Chưa rõ mẫu nhãn nộp kèm hồ sơ có in khẩu hiệu này không.",
+      "regulator_url": "https://vnexpress.net/khong-kiem-nghiem-chat-xo-trong-keo-rau-cu-kera-4864089.html"
+    }
+  ],
+  "mandatory_phrases_observed": {"category_phrase_on_label": null, "disclaimer_text": null, "note": "Không áp dụng câu khuyến cáo TPBVSK. Sở ATTP: nhãn thiếu 'khối lượng tịnh', thiếu sorbitol."},
+  "origin_declared": {"text": "Sản xuất tại Công ty Cổ phần Asia Life (Đắk Lắk)", "source": "https://www.sggp.org.vn/vien-keo-bang-dia-rau-quang-linh-vlogs-va-hang-du-muc-bi-phat-140-trieu-dong-post786923.html"},
+  "regulator_warnings": [
+    {"date": "2025-03-20", "url": "https://www.sggp.org.vn/vien-keo-bang-dia-rau-quang-linh-vlogs-va-hang-du-muc-bi-phat-140-trieu-dong-post786923.html",
+     "excerpt": "[KOL 1] và [KOL 2] bị phạt theo khoản 5 Điều 34 Nghị định số 38/2021/NĐ-CP ... do có hành vi quảng cáo không đúng, gây nhầm lẫn về chất lượng đã được công bố. Số tiền xử phạt ... là 70 triệu đồng đối với mỗi cá nhân. (Cục PTTH&TTĐT; báo SGGP 21/03/2025)"},
+    {"date": "2025-11-19", "url": "https://vnexpress.net/hoa-hau-thuy-tien-hang-du-muc-quang-linh-vlogs-bi-phat-2-nam-tu-4965935.html",
+     "excerpt": "Bản án sơ thẩm (tội lừa dối khách hàng): 'Từ ngày 12/12/2024 đến 16/1/2025, nhóm này có 6 buổi livestream quảng cáo sản phẩm ... khẳng định \"một viên kẹo tương đương một đĩa rau luộc\", \"không ăn rau thì đã có Kera\", và \"mỗi viên chứa 10 loại rau củ cùng vitamin bổ sung chất xơ\".'"}
+  ],
+  "people_naming_policy": "Tên KOL/bị cáo trong bản án được thay bằng vai trò trong candidates.jsonl ([KOL 1] = KOL nam, chủ phiên live; [KOL 2] = KOL nữ, chủ phiên live; [KOL 3] = hoa hậu, khách mời).",
+  "gaps": [
+    "Không có bản tự công bố gốc (đã bị thu hồi); permitted_claims chỉ có thành phần do cáo trạng trích. Khẩu hiệu nhãn nằm ở label_claims_not_in_declaration.",
+    "Không có bản ghi livestream gốc; mọi câu nói là trích qua báo/bản án/bản tin (ASR của bản tin là lời phát thanh viên thuật lại, không phải giọng KOL).",
+    "Đây là ca 'hồ sơ cũng sai': claim khớp hồ sơ (10 loại rau) vẫn là gian dối — hệ thống chỉ bắt được sau khi bản công bố bị thu hồi."
+  ]
+}

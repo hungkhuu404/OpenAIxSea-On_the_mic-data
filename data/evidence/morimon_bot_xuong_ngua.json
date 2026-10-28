@@ -1,0 +1,37 @@
+{
+  "sku_id": "morimon_bot_xuong_ngua",
+  "product_name": "Thực phẩm bảo vệ sức khỏe Bột chiết xuất xương ngựa Morimon",
+  "trade_names_seen": ["Bột chiết xuất xương ngựa Morimon", "Bột cao xương ngựa MORIMON", "Cao ngựa Mông Cổ MORIMON"],
+  "category": "TPBVSK",
+  "company": "Công ty cổ phần dược phẩm Monopole Việt Nam (44-46 Đường số 21A, Phường Bình Trị Đông B, Quận Bình Tân, TP Hồ Chí Minh)",
+  "registration": {
+    "dksp_number": "4544/2022/ĐKSP",
+    "status": "match",
+    "registry_rows": [
+      {"stt": "50390", "so_giay": "4544/2022/ĐKSP", "to_chuc": "Công ty cổ phần dược phẩm Monopole Việt Nam", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe Bột chiết xuất xương ngựa Morimon", "role": "khớp SKU"},
+      {"stt": "33344", "so_giay": "10947/2020/ĐKSP", "to_chuc": "Công ty TNHH Dược phẩm MONOPOLE Việt Nam", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe MORIMON RƯỢU HỒNG SÂM CAO XƯƠNG NGỰA MÔNG CỔ", "role": "cùng họ, KHÁC SKU"},
+      {"stt": "44045", "so_giay": "8972/2021/ĐKSP", "to_chuc": "CÔNG TY TNHH DƯỢC PHẨM MONOPOLE VIỆT NAM", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe MORIMON BONE HEALTH", "role": "cùng họ, KHÁC SKU"},
+      {"stt": "44046", "so_giay": "8973/2021/ĐKSP", "to_chuc": "CÔNG TY TNHH DƯỢC PHẨM MONOPOLE VIỆT NAM", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe MORIMON KIDS", "role": "cùng họ, KHÁC SKU"},
+      {"stt": "142", "so_giay": "7451/2018/ĐKSP", "to_chuc": "CÔNG TY TNHH HÓA DƯỢC QUÍ LONG", "ten_san_pham": "SÂM BỔ THẬN MORIMON", "role": "BẪY TRÙNG TÊN — công ty khác"}
+    ],
+    "note": "VFA (04/04/2025) chỉ nói 'đăng ký bản công bố sản phẩm tại Cục', không nêu số; số lấy từ registry theo tên đầy đủ + công ty. Tên công ty trong registry có 2 dạng (TNHH / cổ phần)."
+  },
+  "ad_confirmation": {"gxnqc_number": null, "issuer": "Cục An toàn thực phẩm", "status": "present",
+    "sources": ["https://vfa.gov.vn/tin-tuc/canh-bao-thuc-pham-bao-ve-suc-khoe-seloderma-psc-300-plus-va-thuc-pham-bao-ve-suc-khoe-bot-chiet-xuat-xuong-ngua-morimon-co-noi-dung-quang-cao-vi-pham-quy-dinh-cua-phap-luat.html"],
+    "note": "Suy ra từ câu VFA 'quảng cáo không phù hợp với nội dung quảng cáo đã được xác nhận' (áp chung cho Morimon và SELODERMA). Không có số GXNQC; qc_2023_2024.csv không có dòng (có thể cấp trước 2023)."},
+  "recalls": [],
+  "permitted_claims": [],
+  "mandatory_phrases_observed": {"category_phrase_on_label": null, "disclaimer_text": null},
+  "origin_declared": {"text": "chiết xuất 100% từ xương ngựa Mông Cổ (kênh YouTube của hãng); nhà máy tại Mông Cổ (video 'NHÀ SÁNG LẬP - hình ảnh nhà máy tại Mông Cổ')", "source": "https://www.youtube.com/watch?v=tm3dgzauEbU (mô tả); tiêu đề video ZzxeJABw2rI trong kết quả tìm kiếm YouTube (chưa mở video)"},
+  "regulator_warnings": [
+    {"date": "2025-04-04", "url": "https://vfa.gov.vn/tin-tuc/canh-bao-thuc-pham-bao-ve-suc-khoe-seloderma-psc-300-plus-va-thuc-pham-bao-ve-suc-khoe-bot-chiet-xuat-xuong-ngua-morimon-co-noi-dung-quang-cao-vi-pham-quy-dinh-cua-phap-luat.html",
+     "excerpt": "tại đường link: https://www.facebook.com/@Caonguamorimon/; https://www.facebook.com/share/v/14eo3gG46M/?mibextid=wwXIfr; https://caonguamongco.com/san-pham-bot-cao-ngua-mong-co-morimon có nội dung quảng cáo Thực phẩm bảo vệ sức khỏe Bột chiết xuất xương ngựa Morimon ... vi phạm quy định của pháp luật về quảng cáo: nội dung quảng cáo sản phẩm gây hiểu nhầm có tác dụng như thuốc chữa bệnh, quảng cáo không phù hợp với nội dung quảng cáo đã được xác nhận."},
+    {"date": "2025-05-29", "url": "https://vfa.gov.vn/tin-tuc/canh-bao-fanpage-co-ten-duoc-pham-hoang-huong--meli-noi-dung-quang-cao-vi-pham-quy-dinh-cua-phap-luat-ve-quang-cao.html",
+     "excerpt": "tại đường link: https://www.facebook.com/share/v/14eo3gG46M/?mibextid=wwXIfr; đang thực hiện quảng cáo sản phẩm Thực phẩm bảo vệ sức khỏe Bột chiết xuất xương ngựa Morimon có nội dung quảng cáo sản phẩm gây hiểu nhầm có tác dụng như thuốc chữa bệnh. (cảnh báo fanpage 'Dược phẩm Hoàng Hường – Meli')"}
+  ],
+  "gaps": [
+    "caonguamongco.com lỗi chứng chỉ TLS (không vượt); Facebook không xem được khi không đăng nhập; archive.org bị chặn từ VN và WebFetch không truy cập được → không có nguyên văn trang vi phạm.",
+    "Không có nội dung GXNQC/nhãn → permitted_claims rỗng; chỉ chấm được các rule tuyệt đối (R04, R08, R09) trên các câu của kênh YouTube hãng; R05 phải ⚪.",
+    "Phụ đề các video Morimon bị YouTube chặn (IpBlocked) — chỉ có tiêu đề + mô tả."
+  ]
+}

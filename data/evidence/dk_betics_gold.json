@@ -1,0 +1,85 @@
+{
+  "sku_id": "dk_betics_gold",
+  "product_name": "Thực phẩm bảo vệ sức khoẻ DK-BETICS GOLD",
+  "trade_names_seen": ["DK-Betics Gold", "Viên Uống Hỗ Trợ Ổn Định Đường Huyết DK-Betics Gold", "Viên tiểu đường DK-BETICS GOLD"],
+  "category": "TPBVSK",
+  "company": "CÔNG TY CỔ PHẦN DƯỢC KHOA (Số 9 Nguyễn Công Trứ, Hai Bà Trưng, Hà Nội)",
+  "registration": {
+    "dksp_number": "7615/2020/ĐKSP",
+    "issued_date": "2020-08-13",
+    "status": "match",
+    "registry_rows": [
+      {"stt": "27037", "so_giay": "7615/2020/ĐKSP", "to_chuc": "CÔNG TY CỔ PHẦN DƯỢC KHOA", "ten_san_pham": "Thực phẩm bảo vệ sức khoẻ DK-BETICS GOLD", "role": "khớp SKU"},
+      {"stt": "7332", "so_giay": "3994/2018/ĐKSP", "to_chuc": "CÔNG TY CỔ PHẦN DƯỢC KHOA", "ten_san_pham": "Viên nang DK-BETICS", "role": "sản phẩm cùng họ, KHÁC SKU"},
+      {"stt": "7485", "so_giay": "3833/2018/ĐKSP", "to_chuc": "CÔNG TY CỔ PHẦN DƯỢC KHOA", "ten_san_pham": "Trà túi lọc DK-BETICS", "role": "sản phẩm cùng họ, KHÁC SKU — trang trungtamthuoc.com ghi số này cho DK-Betics Gold"},
+      {"stt": "50616", "so_giay": "4527/2022/ĐKSP", "to_chuc": "Công ty cổ phần Dược Khoa", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe DK-BETICS PLATINUM", "role": "sản phẩm cùng họ, KHÁC SKU"}
+    ],
+    "note": "Số và ngày lấy từ trang cảnh báo VFA 19/08/2026 và Công văn 1667/ATTP-NĐTT (20/08/2026). Registry cbsp_2018_2025.csv khớp đúng tên. Cảnh báo bẫy R07: họ DK-BETICS có 4 số khác nhau; trang nhà thuốc trungtamthuoc.com/dk-betics-gold ghi 'Số đăng ký 3833/2018/ĐKSP' (thực ra là Trà túi lọc DK-BETICS). Tìm theo chuỗi 'betics' còn ra Chaga-Betics, IT Betics, Sun Betics Gold, HYPO-BETICS, CHAGABETICS GOLD, VIÊN ĐƯỜNG HUYẾT BETICS GOLD của công ty khác — không được khớp mờ."
+  },
+  "ad_confirmation": {
+    "gxnqc_number": "3433/2020/XNQC-ATTP",
+    "issued_date": "2020-10-23",
+    "issuer": "Cục An toàn thực phẩm - Bộ Y tế",
+    "status": "present",
+    "sources": [
+      "https://vfa.gov.vn/tin-tuc/khan-truong-xac-minh-xu-ly-vi-pham-quang-cao-san-pham-vien-ngam-giai-ruou-non-alco-va-dk-betics-gold.html",
+      "https://vfa.gov.vn/upload/files/6/10/Tuan/Tuan%201/Tuan%202/Tuan%203/Tuan%204/Tuan%205/Tuan%206/Tuan%207/Tuan%208/Tuan%209/Tuan%2010/CV%20gui%20SYT%20H%C3%80%20N%20I%202_signed.pdf"
+    ],
+    "note": "Nội dung ma-két của GXNQC không công khai. qc_2023_2024.csv không có dòng (bình thường: GXNQC cấp năm 2020)."
+  },
+  "recalls": [],
+  "permitted_claims": [
+    {
+      "text": "hỗ trợ giảm và duy trì đường huyết ổn định; giúp giảm nguy cơ biến chứng do tiểu đường.",
+      "source_type": "regulator",
+      "source_detail": "Nội dung GXNQC 3433/2020/XNQC-ATTP do báo VOV trích (bài 19/06/2026). Đọc qua WebFetch từ máy chủ Mỹ (vov.vn trả 403 cho máy VN); câu được công cụ tóm tắt trích, chưa đối chiếu bản gốc GXNQC.",
+      "url": "https://vov.vn/thi-truong/dk-betics-gold-thuc-pham-bao-ve-suc-khoe-quang-cao-tac-dung-nhu-thuoc-chua-benh-post1307684.vov",
+      "retrieved_at": "2026-10-21",
+      "confidence": "medium"
+    },
+    {
+      "text": "Hỗ trợ giảm và duy trì đường huyết ổn định. Giúp giảm nguy cơ biến chứng do tiểu đường.",
+      "source_type": "pharmacy_listing",
+      "source_detail": "Mô tả video YouTube C2vnrj4Nb4E (kênh 'Sàn Thuốc', đăng 09/08/2023), mục 'Công dụng'; trùng gần như nguyên văn với câu GXNQC mà VOV trích → hai nguồn độc lập khớp nhau.",
+      "url": "https://www.youtube.com/watch?v=C2vnrj4Nb4E",
+      "retrieved_at": "2026-10-22",
+      "confidence": "medium"
+    }
+  ],
+  "permitted_claims_note": "Bản viết lại của trungtamthuoc ('Hỗ trợ làm giảm Glucose huyết và duy trì ổn định chỉ số này.') KHÔNG đưa vào đây mà dùng làm ca green trong candidates.jsonl, để tránh vòng lặp nguồn.",
+  "ingredients_declared": [
+    {"text": "Mỗi viên nang cứng 500mg có chứa: Cao Dây thìa canh lá to 350mg", "source": "https://chiaki.vn/vien-uong-ho-tro-on-dinh-duong-huyet-dk-betics-gold", "confidence": "medium"}
+  ],
+  "mandatory_phrases_observed": {
+    "category_phrase_on_label": null,
+    "disclaimer_text": "Thực phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh.",
+    "disclaimer_source": "listing chiaki.vn và trungtamthuoc.com (không phải ảnh nhãn). Lưu ý: dùng dấu phẩy, không có chữ 'và' như câu khuyến cáo ở NĐ 15/2018 Điều 27 khoản 3 điểm a.",
+    "note": "Chưa có ảnh nhãn để kiểm cụm 'Thực phẩm bảo vệ sức khỏe' trên bao bì."
+  },
+  "origin_declared": {"text": "Việt Nam", "source": "https://chiaki.vn/vien-uong-ho-tro-on-dinh-duong-huyet-dk-betics-gold (mục Xuất xứ)"},
+  "regulator_warnings": [
+    {
+      "date": "2026-08-19",
+      "url": "https://vfa.gov.vn/tin-tuc/khan-truong-xac-minh-xu-ly-vi-pham-quang-cao-san-pham-vien-ngam-giai-ruou-non-alco-va-dk-betics-gold.html",
+      "excerpt": "Trên các website sản phẩm nêu trên đang được quảng cáo không phù hợp với giấy xác nhận nội dung quảng cáo đã được cấp, quảng cáo gây hiểu nhầm có tác dụng như thuốc chữa bệnh, sử dụng hình ảnh bác sĩ để quảng cáo… vi phạm quy định tại Khoản 2 Điều 27 Nghị định 15/2018/NĐ-CP"
+    },
+    {
+      "date": "2026-08-20",
+      "url": "https://vfa.gov.vn/upload/files/6/10/Tuan/Tuan%201/Tuan%202/Tuan%203/Tuan%204/Tuan%205/Tuan%206/Tuan%207/Tuan%208/Tuan%209/Tuan%2010/CV%20gui%20SYT%20H%C3%80%20N%20I%202_signed.pdf",
+      "excerpt": "Công văn 1667/ATTP-NĐTT gửi Sở Y tế Hà Nội (thay thế Công văn 1647/ATTP-NĐTT ngày 18/8/2026), dẫn bài VOV post1307684; nêu GXNQC số 3433/2020/XNQC-ATTP ngày 23/10/2020."
+    },
+    {
+      "date": "2021-08-06",
+      "url": null,
+      "excerpt": "Theo VOV 19/06/2026: 'ngày 6/8/2021, Cục An toàn thực phẩm đã phát đi thông báo cảnh báo' về DK-BETICS GOLD quảng cáo trên fanpage facebook.com/dkbetics.pharmart.vn. CHƯA tìm thấy bài gốc trên vfa.gov.vn."
+    }
+  ],
+  "violating_sites_named": ["tieuduong.asia", "hotrotieuduong.asia", "facebook.com/dkbetics.pharmart.vn (cảnh báo 2021)"],
+  "gaps": [
+    "Không có ảnh nhãn hay bản công bố gốc: permitted_claims chỉ có (1) câu GXNQC do báo trích lại và (2) bản viết lại của nhà thuốc.",
+    "Ma-két GXNQC 3433/2020 không công khai.",
+    "tieuduong.asia không kết nối được; hotrotieuduong.asia lỗi chứng chỉ TLS (không vượt) — không lấy được nguyên văn trang vi phạm, chỉ có trích dẫn của báo.",
+    "Bài VOV gốc: 403 từ máy VN, chỉ đọc được qua WebFetch (công cụ tóm tắt, không trả toàn văn).",
+    "Cảnh báo VFA 06/08/2021 chưa xác minh trên vfa.gov.vn."
+  ]
+}

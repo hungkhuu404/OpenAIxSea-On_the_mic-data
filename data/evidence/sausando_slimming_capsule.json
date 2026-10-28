@@ -1,0 +1,36 @@
+{
+  "sku_id": "sausando_slimming_capsule",
+  "product_name": "Sausando Slimming capsule",
+  "trade_names_seen": ["Sausando Slimming capsule", "Sausando 400mg L-Carnitine (tiêu đề listing Shopee, khôi phục từ slug URL trong công văn VFA)"],
+  "category": "unknown",
+  "category_note": "VFA: 'sản phẩm thực phẩm ... thuộc nhóm thực phẩm chức năng'; listing dẫn số dạng ĐKSP. Không xác định được nhóm chính thức.",
+  "company": "Công ty TNHH Thương mại Junda (469 Đường 51, Tổ 12, Khu phố 2, Phường Bình Dương, TP. Hồ Chí Minh) — theo listing Shopee mà VFA nêu",
+  "registration": {
+    "dksp_number": "5218/2023/ĐKSP",
+    "claimed_date": "2023-06-16",
+    "status": "mismatch",
+    "registry_rows": [
+      {"stt": "52281", "so_giay": "5218/2023/ĐKSP", "to_chuc": "CÔNG TY CỔ PHẦN DƯỢC PHẨM GICO", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe SUPER GLUCOSAMINE DX", "role": "chủ thật của số"}
+    ],
+    "note": "VFA 16/10/2026: Cục không cấp số 5218/2023/ĐKSP ngày 16/06/2023 cho Sausando Slimming capsule. Registry xác nhận số này thuộc SUPER GLUCOSAMINE DX (GICO) → R07 mismatch. Không có dòng nào chứa 'sausando' hay 'junda'. Trên TikTok (VFA 17/10/2026) sản phẩm 'chưa được cấp Giấy tiếp nhận đăng ký bản công bố'."
+  },
+  "ad_confirmation": {"gxnqc_number": null, "issuer": null, "status": "absent", "sources": ["https://vfa.gov.vn/tin-tuc/yeu-cau-shopee-ngung-kinh-doanh-san-pham-sausando-slimming-capsule.html"], "note": "Suy ra từ việc không có bản công bố hợp lệ; qc_2023_2024.csv không có dòng."},
+  "recalls": [],
+  "permitted_claims": [],
+  "mandatory_phrases_observed": {"category_phrase_on_label": null, "disclaimer_text": null},
+  "origin_declared": {"text": "Sản xuất Nhật (tiêu đề listing Shopee, theo slug URL)", "source": "URL listing trong công văn 2190/ATTP-SP", "note": "Không có hồ sơ để đối chiếu xuất xứ (R11 phải ⚪)."},
+  "regulator_warnings": [
+    {"date": "2026-10-16", "url": "https://vfa.gov.vn/tin-tuc/yeu-cau-shopee-ngung-kinh-doanh-san-pham-sausando-slimming-capsule.html",
+     "excerpt": "qua tra cứu dữ liệu cấp Giấy tiếp nhận đăng ký bản công bố sản phẩm, Cục An toàn thực phẩm không cấp Giấy tiếp nhận đăng ký bản công bố sản phẩm số 5218/2023/ĐKSP ngày 16/06/2023 cho sản phẩm Sausando Slimming capsule của Công ty TNHH Thương mại Junda"},
+    {"date": "2026-10-17", "url": "https://vfa.gov.vn/tin-tuc/ra-soat-go-bo-thong-tin-san-pham-sausando-slimming-capsule-tren-tiktok.html",
+     "excerpt": "Cục An toàn thực phẩm phát hiện sản phẩm thực phẩm “Sausando Slimming capsule” thuộc nhóm thực phẩm chức năng đang được quảng cáo và kinh doanh trên trên nền tảng xã hội (tiktok) mà chưa được cấp Giấy tiếp nhận đăng ký bản công bố sản phẩm (Công văn 2210/ATTP-SP, link https://vt.tiktok.com/ZS9UAj5ourkRL-YZWNa/)"}
+  ],
+  "listing_urls_named_by_regulator": [
+    "https://shopee.vn/Sausando-400mg-L-Carnitine-B%E1%BB%95-sung-n%C4%83ng-l%C6%B0%E1%BB%A3ng-h%E1%BB%97-tr%E1%BB%A3-%C4%91%E1%BB%91t-m%E1%BB%A1-v%C3%A0-%C4%91%E1%BB%8Bnh-h%C3%ACnh-v%C3%B3c-d%C3%A1ng-S%E1%BA%A3n-xu%E1%BA%A5t-Nh%E1%BA%ADt-10-vi%C3%AAn-h%E1%BB%99p-i.1649923995.44903136136",
+    "https://vt.tiktok.com/ZS9UAj5ourkRL-YZWNa/"
+  ],
+  "gaps": [
+    "Không có công dụng được phép (không có bản công bố hợp lệ) — đúng bản chất ca R07.",
+    "Không lấy được nội dung listing Shopee/clip TikTok (cần JS/đăng nhập; đã bị yêu cầu gỡ). Chỉ có tiêu đề khôi phục từ slug URL."
+  ]
+}

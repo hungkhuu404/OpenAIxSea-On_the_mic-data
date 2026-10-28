@@ -1,0 +1,30 @@
+{
+  "sku_id": "seloderma_psc300_plus",
+  "product_name": "Thực phẩm bảo vệ sức khỏe SELODERMA PSC 300 PLUS",
+  "trade_names_seen": ["SELODERMA PSC 300 PLUS", "Dr Michaels PSC 300 (slug URL trang vi phạm)"],
+  "category": "TPBVSK",
+  "company": "CÔNG TY TNHH DƯỢC PHẨM KHANG THÁI (Số 87 Trần Não, phường An Khánh, thành phố Thủ Đức, TP Hồ Chí Minh)",
+  "registration": {
+    "dksp_number": "8533/2024/ĐKSP",
+    "status": "match",
+    "registry_rows": [
+      {"stt": "72208", "so_giay": "8533/2024/ĐKSP", "to_chuc": "CÔNG TY TNHH DƯỢC PHẨM KHANG THÁI", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe SELODERMA PSC 300 PLUS", "role": "khớp SKU"}
+    ],
+    "note": "VFA không nêu số; registry khớp tên + công ty. Trang vi phạm dùng tên 'dr-michaels-psc-300' — tên thương mại khác tên đăng ký (bẫy khớp SKU)."
+  },
+  "ad_confirmation": {"gxnqc_number": null, "issuer": "Cục An toàn thực phẩm", "status": "present",
+    "sources": ["https://vfa.gov.vn/tin-tuc/canh-bao-thuc-pham-bao-ve-suc-khoe-seloderma-psc-300-plus-va-thuc-pham-bao-ve-suc-khoe-bot-chiet-xuat-xuong-ngua-morimon-co-noi-dung-quang-cao-vi-pham-quy-dinh-cua-phap-luat.html"],
+    "note": "Suy ra từ câu VFA 'quảng cáo không phù hợp với nội dung quảng cáo đã được xác nhận'. Không có số; qc_2023_2024.csv không có dòng Khang Thái."},
+  "recalls": [],
+  "permitted_claims": [],
+  "mandatory_phrases_observed": {"category_phrase_on_label": null, "disclaimer_text": null},
+  "origin_declared": {"text": null, "source": "chưa thấy"},
+  "regulator_warnings": [
+    {"date": "2025-04-04", "url": "https://vfa.gov.vn/tin-tuc/canh-bao-thuc-pham-bao-ve-suc-khoe-seloderma-psc-300-plus-va-thuc-pham-bao-ve-suc-khoe-bot-chiet-xuat-xuong-ngua-morimon-co-noi-dung-quang-cao-vi-pham-quy-dinh-cua-phap-luat.html",
+     "excerpt": "tại đường link: https://doctor.tuvanwebsite.com/product/dr-michaels-psc-300/ có nội dung quảng cáo sản phẩm Thực phẩm bảo vệ sức khỏe SELODERMA PSC 300 PLUS vi phạm quy định của pháp luật về quảng cáo: nội dung quảng cáo sản phẩm gây hiểu nhầm có tác dụng như thuốc chữa bệnh, quảng cáo không phù hợp với nội dung quảng cáo đã được xác nhận."}
+  ],
+  "gaps": [
+    "doctor.tuvanwebsite.com không phân giải DNS (22/10/2026); không tìm thấy listing/nhãn nào khác (WebSearch từ Mỹ trả về sản phẩm khác tên gần giống 'Sodermix').",
+    "Không có ca nào trong candidates.jsonl cho SKU này (không có câu quảng cáo nguyên văn)."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "sku_id": "love_world_coffee",
+  "product_name": "Thực phẩm bổ sung Love World Nutrition Coffee",
+  "trade_names_seen": ["Love World Nutrition Coffee", "Cà Phê Giảm Cân Love World", "CAFE GIẢM CÂN AN TOÀN GIẢM MỠ BỤNG CÀ PHÊ LOVE WORLD"],
+  "category": "thuc_pham_bo_sung",
+  "company": "Công ty TNHH D&H RETEK USA (số 7 đường B6, phường Bảy Hiền, TP Hồ Chí Minh) công bố; sản xuất tại Công ty TNHH Công Nghệ Mr Chí (9/46 Xa lộ Hà Nội, phường Tăng Nhơn Phú, TP Hồ Chí Minh)",
+  "registration": {
+    "dksp_number": null,
+    "status": "unknown",
+    "registry_rows": [
+      {"stt": "62687", "so_giay": "9535/2023/ĐKSP", "to_chuc": "CÔNG TY TNHH D&H RETEK USA", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe VIÊN UỐNG GIẢI ĐỘC GAN LIVER - PRO", "role": "sản phẩm KHÁC cùng công ty — không dùng cho SKU này"}
+    ],
+    "note": "Thực phẩm bổ sung dùng hồ sơ TỰ công bố (nộp cơ quan cấp tỉnh), không nằm trong registry ĐKSP của Cục. VFA (30/08/2026) đề nghị Sở ATTP TP.HCM 'đối chiếu nội dung quảng cáo ... với Hồ sơ tự công bố' — hồ sơ này không công khai."
+  },
+  "ad_confirmation": {"gxnqc_number": null, "issuer": null, "status": "absent", "sources": [], "note": "Không áp dụng: thực phẩm bổ sung không thuộc diện đăng ký nội dung quảng cáo (NĐ 15/2018 Đ26). Chuẩn đối chiếu là bản tự công bố (NĐ 15/2018 Đ27 k2)."},
+  "recalls": [],
+  "permitted_claims": [],
+  "ingredients_declared": [
+    {"text": "Thành phần chính: Cafe nguyên chất, Lá sen lên men và các vi chất dinh dưỡng", "source": "Ảnh listing Shopee trong phụ lục Công văn 1782/ATTP-NĐTT (listing của người bán, không phải hồ sơ)", "confidence": "low"}
+  ],
+  "mandatory_phrases_observed": {
+    "category_phrase_on_label": null,
+    "disclaimer_text": "Chú ý: Sản phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh!",
+    "disclaimer_source": "listing Shopee (ảnh phụ lục CV 1782). Hộp in 'Food Supplement' (tiếng Anh).",
+    "note": "Câu khuyến cáo bắt buộc theo NĐ15 Đ27 k3 chỉ áp cho TPBVSK; ở đây là thực phẩm bổ sung."
+  },
+  "origin_declared": {"text": "Sản xuất tại Công ty TNHH Công Nghệ Mr Chí (TP Hồ Chí Minh) theo VFA; listing hiển thị logo 'FDA' và 'Certified manufacturing plant'", "source": "https://vfa.gov.vn/xu-ly-vi-pham-attp/xac-minh-xu-ly-vi-pham-quang-cao-san-pham-love-world-nutrition-coffee-tren-san-thuong-mai-dien-tu.html"},
+  "regulator_warnings": [
+    {"date": "2026-08-30", "url": "https://vfa.gov.vn/xu-ly-vi-pham-attp/xac-minh-xu-ly-vi-pham-quang-cao-san-pham-love-world-nutrition-coffee-tren-san-thuong-mai-dien-tu.html",
+     "excerpt": "Cục An toàn thực phẩm phát hiện sản phẩm thực phẩm bổ sung “Love World Nutrition Coffee” ... có dấu hiệu nghi ngờ vi phạm nội dung quảng cáo liên quan đến các hành vi sử dụng các từ ngữ gây hiểu lầm cho người tiêu dùng về công dụng, tác dụng của sản phẩm. Cụ thể, sản phẩm nêu trên hiện đang được đăng bán tại sàn thương mại điện tử Shopee theo đường link: https://vn.shp.ee/wVoHKX2s (hình ảnh nghi ngờ vi phạm kèm theo công văn)"},
+    {"date": "2026-08-30", "url": "https://vfa.gov.vn/upload/files/6/10/Tuan/Tuan%201/Tuan%202/Tuan%203/Tuan%204/Tuan%205/Tuan%206/Tuan%207/Tuan%208/Tuan%209/Tuan%2010/Tuan%2011/Tuan%2012/CV%201782%20ve%20Coffee%20Love%20World_signed.pdf",
+     "excerpt": "Công văn 1782/ATTP-NĐTT, trang 2 'PHỤ LỤC HÌNH ẢNH NGHI NGỜ VI PHẠM': 2 ảnh chụp listing Shopee (tiêu đề, giá 350.000đ, mục MÔ TẢ SẢN PHẨM). Đây là nguồn nguyên văn cho các ca love_world_coffee trong candidates.jsonl."}
+  ],
+  "gaps": [
+    "Hồ sơ tự công bố không công khai → permitted_claims rỗng; mọi ca R05 phải kỳ vọng ⚪ (hoặc dùng nhãn của cơ quan: VFA mới nói 'nghi ngờ', chưa kết luận).",
+    "Link rút gọn vn.shp.ee/wVoHKX2s chưa mở thử (Shopee cần JS)."
+  ]
+}

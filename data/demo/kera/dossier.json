@@ -1,0 +1,302 @@
+{
+  "sku_id": "kera",
+  "generated_at": "2026-10-22",
+  "purpose": "Hồ sơ theo thời điểm của sản phẩm Kera để đối chiếu lời livestream. Dữ liệu demo, không phải bản tự công bố gốc (bản gốc đã bị buộc thu hồi, không tìm được trên mạng công khai).",
+  "method": "Mọi trường lấy từ text trang báo tải về máy (data/demo/kera/_raw/*.txt) hoặc chép từ ảnh trong bài báo (data/demo/kera/_raw/img/*). Không dùng WebFetch. Trường nào chép từ ảnh có method = 'chép từ ảnh'.",
+  "naming_policy": "Không ghi tên cá nhân. Doanh nghiệp giữ tên. KOL theo vai: [KOL 1] = KOL nam, chủ phiên live; [KOL 2] = KOL nữ, chủ phiên live; [KOL 3] = hoa hậu, khách mời. Lãnh đạo doanh nghiệp ghi theo chức danh.",
+  "confidence_scale": {
+    "high": "cơ quan nhà nước nói trực tiếp hoặc cáo trạng/kết luận điều tra do báo lớn trích, có từ 2 nguồn trở lên khớp nhau",
+    "medium": "một nguồn báo chính thống, hoặc chép từ ảnh đọc được rõ",
+    "low": "chép từ ảnh mờ/đọc một phần, suy luận gián tiếp, hoặc nguồn mâu thuẫn"
+  },
+
+  "product": {
+    "name_on_label": {
+      "value": "KERA — Thực phẩm bổ sung SUPERGREENS GUMMIES",
+      "method": "chép từ ảnh",
+      "confidence": "high",
+      "sources": [
+        {"image_url": "https://cdn-images.vtv.vn/66349b6076cb4dee98746cf1/2025/09/09/thuy-tien-3-1757232084024-1757232084098247501094-62673035951139647868671.png", "article_url": "https://vtv.vn/vu-an-keo-kera-tu-y-tuong-vi-thuy-tien-khong-thich-an-rau-den-lua-doi-nguoi-tieu-dung-100250909101340944.htm", "article_date": "2025-09-09", "raw_file": "_raw/img/vtv_sanpham.png", "caption": "Sản phẩm kẹo Kera được quảng cáo."},
+        {"image_url": "https://kenh14cdn.com/203336854389633024/2025/3/21/inbound2692704857716142286-0141-1742515411732-1742515412627295818276-1742543699472628368743-1742547376451-17425473786132123178324.png", "article_url": "https://kenh14.vn/diem-bo-quen-tren-bao-bi-giup-keo-kera-khong-bi-kiem-nghiem-chat-xo-215250321155651611.chn", "article_date": "2025-03-21", "raw_file": "_raw/img/kenh14_baobi_chatxo.png", "caption": "Thành phần chất xơ không được ghi trên bao bì kẹo KERA."}
+      ]
+    },
+    "name_in_regulator_documents": {
+      "value": "Thực phẩm bổ sung Supergreens Gummies",
+      "confidence": "high",
+      "sources": [
+        {"url": "https://vietnamnet.vn/xu-phat-125-trieu-dong-vu-keo-rau-cu-kera-thu-hoi-san-pham-2382563.html", "date": "2025-03-24", "raw_file": "_raw/vietnamnet_phat125.txt", "excerpt": "nhãn sản phẩm trên hồ sơ tự công bố và nhãn thực tế của sản phẩm Thực phẩm bổ sung Supergreens Gummies không ghi đủ các nội dung bắt buộc"},
+        {"url": "https://lsvn.vn/de-nghi-giam-an-cho-thuy-tien-quang-linh-vlog-trong-vu-an-keo-rau-cu-kera-a166128.html", "date": "2025-11-19", "raw_file": "_raw/lsvn_caotrang.txt", "excerpt": "thực phẩm bổ sung SuperGreens Gummies (kẹo ‘‘Kera”) là sản phẩm của Công ty Cổ phần Tập đoàn Chị Em Rọt đăng ký nhãn hiệu, đứng tên trên Bản tự công bố sản phẩm ngày 17/12/2024"}
+      ]
+    },
+    "trade_names_seen": ["Kera", "KERA", "kẹo rau củ Kera", "kẹo Kera", "Super Greens Gummies", "SuperGreens Gummies", "SUPERGREENS GUMMIES"],
+    "category": {
+      "value": "thực phẩm bổ sung",
+      "confidence": "high",
+      "note": "Không phải thực phẩm bảo vệ sức khỏe → không có số ĐKSP, không thuộc diện xác nhận nội dung quảng cáo (NĐ 15/2018 Đ26). Chuẩn đối chiếu là bản tự công bố (NĐ 15/2018 Đ27 k2).",
+      "sources": [
+        {"url": "https://vnexpress.net/khong-kiem-nghiem-chat-xo-trong-keo-rau-cu-kera-4864089.html", "date": "2025-03-21", "raw_file": "_raw/vnexpress_khongkiemnghiem.txt", "excerpt": "Cục An toàn Thực phẩm ghi nhận kẹo Kera đã được quảng cáo thổi phồng, thực chất trên bao bì ghi rõ đây là \"thực phẩm bổ sung\"."},
+        {"method": "chép từ ảnh", "image_file": "_raw/img/vtv_sanpham.png", "text_on_image": "Thực phẩm bổ sung"}
+      ]
+    },
+    "pack_size": {
+      "value": "30 viên | 96 g (3,2 g x 30 viên)",
+      "method": "chép từ ảnh",
+      "confidence": "medium",
+      "source_image": "_raw/img/vtv_sanpham.png",
+      "conflicts": [
+        {"value": "hộp kẹo 96g gồm 32 viên", "url": "https://tuoitre.vn/keo-rau-cu-kera-co-thanh-phan-chat-tao-ngot-nhung-khong-ghi-tren-nhan-dan-20250320130339401.htm", "date": "2025-03-20", "note": "Số 32 viên mâu thuẫn với nhãn (96 g / 3,2 g = 30). Tin vào chữ trên nhãn."}
+      ]
+    },
+    "price_seen": {
+      "values": [
+        {"value": "129.000 đồng/hộp", "url": "https://vnexpress.net/hoa-hau-thuy-tien-doi-tang-co-phan-vi-keo-kera-dat-khach-4936003.html", "date": "2025-09-06", "context": "giá dùng để tính doanh thu phiên 12/12/2024 theo kết luận điều tra"},
+        {"value": "149.000 đồng/lọ", "url": "https://vietnamnet.vn/ket-qua-kiem-dinh-boc-tran-quang-cao-lo-cua-hang-du-muc-quang-linh-2378211.html", "date": "2025-03-07"}
+      ],
+      "confidence": "low",
+      "note": "Giá không thuộc hồ sơ công bố; chỉ dùng cho câu dựng thêm trong kịch bản."
+    }
+  },
+
+  "responsible_parties": {
+    "declarant_owner": {
+      "value": "Công ty Cổ phần Tập đoàn Chị Em Rọt (CER Group) — chủ sở hữu sản phẩm, đứng tên bản tự công bố, đăng ký nhãn hiệu Kera",
+      "address": "144-146-148 Đường số 11, khu phố 5, phường An Phú, TP Thủ Đức, TP.HCM",
+      "confidence": "high",
+      "sources": [
+        {"url": "https://lsvn.vn/de-nghi-giam-an-cho-thuy-tien-quang-linh-vlog-trong-vu-an-keo-rau-cu-kera-a166128.html", "date": "2025-11-19", "raw_file": "_raw/lsvn_caotrang.txt"},
+        {"url": "https://thoibaotaichinhvietnam.vn/bo-y-te-vao-cuoc-vu-quang-cao-no-thuc-pham-bo-sung-keo-rau-cu-171952.html", "date": "2025-03-07", "raw_file": "_raw/tbtc_boyte.txt", "excerpt": "Sản phẩm do Công ty Cổ phần Tập đoàn Chị em rọt (địa chỉ: 144-146-148 Đường số 11, khu phố 5, Phường An Phú, Thành phố Thủ Đức, TP. Hồ Chí Minh) công bố"}
+      ],
+      "label_text": {"value": "Product of: CHI EM ROT JOINT STOCK COMPANY ... [TẬP] ĐOÀN ...", "method": "chép từ ảnh", "confidence": "low", "image_file": "_raw/img/nld_nhan_sorbitol.png", "note": "ảnh mặt sau hộp, mờ, chỉ đọc được một phần"}
+    },
+    "manufacturer": {
+      "value": "Công ty Cổ phần Asia Life (gia công, đóng gói theo hợp đồng)",
+      "address": "18/99 Nguyễn Văn Linh, xã Ea Tu, TP Buôn Ma Thuột, tỉnh Đắk Lắk",
+      "confidence": "high",
+      "sources": [
+        {"url": "https://thoibaotaichinhvietnam.vn/bo-y-te-vao-cuoc-vu-quang-cao-no-thuc-pham-bo-sung-keo-rau-cu-171952.html", "date": "2025-03-07", "raw_file": "_raw/tbtc_boyte.txt"},
+        {"method": "chép từ ảnh", "image_file": "_raw/img/nld_nhan_sorbitol.png", "text_on_image": "Sản xuất tại: CÔNG TY CỔ PHẦN ASIA LIFE Địa chỉ: 18/99 Nguyễn Văn Linh, Xã Eatu, Thành phố Buôn Ma [Thuột], Tỉnh Đắk Lắk, Việt Nam. / Manufactured by ASIA LIFE JOINT STOCK COMPANY Address: 18/99 Nguyen Van Linh, Eatu Commune, Buon Ma Thuot City, Dak Lak Province"}
+      ]
+    },
+    "dossier_consultant": {
+      "value": "Công ty cổ phần Dịch vụ thực phẩm quốc tế Fosi (tư vấn, hoàn thiện hồ sơ tự công bố, do phía nhà sản xuất thuê)",
+      "confidence": "medium",
+      "sources": [{"url": "https://tuoitre.vn/tach-hanh-vi-tiep-tuc-dieu-tra-vu-san-xuat-hang-gia-lien-quan-keo-kera-20251112144726724.htm", "date": "2025-11-12", "raw_file": "_raw/tuoitre_tachhanhvi.txt"}]
+    },
+    "signatory_role": "[Giám đốc CER] ký ban hành bản tự công bố"
+  },
+
+  "self_declaration": {
+    "number": {
+      "value": "01/CHỊ EM RỌT/202?",
+      "method": "chép từ ảnh",
+      "confidence": "low",
+      "text_on_image": "Số tiêu chuẩn công bố/ Self-declaration number: 01/CHỊ EM RỌT/202…",
+      "image_url": "https://cdn2.tuoitre.vn/nld/291774122806476800/2025/3/21/screenshot-2025-03-21-at-154205-17425466099522082952894.png",
+      "article_url": "https://nld.com.vn/co-quan-chuc-nang-noi-gi-ve-chat-la-trong-keo-rau-kera-196250321160014499.htm",
+      "article_date": "2025-03-22",
+      "image_file": "_raw/img/nld_nhan_sorbitol.png",
+      "note": "Chữ số cuối của năm bị che/mờ. Không tìm thấy số này trong text báo nào."
+    },
+    "signed_on": {
+      "value": "2024-12-17",
+      "confidence": "high",
+      "sources": [
+        {"url": "https://tuoitre.vn/tach-hanh-vi-tiep-tuc-dieu-tra-vu-san-xuat-hang-gia-lien-quan-keo-kera-20251112144726724.htm", "date": "2025-11-12", "raw_file": "_raw/tuoitre_tachhanhvi.txt", "excerpt": "Ngày 17-12-2024, [Giám đốc CER] ký ban hành bản tự công bố sản phẩm đối với Thực phẩm bổ sung Supergreens Gummies kèm theo bản tiêu chuẩn sản phẩm và mẫu nhãn sản phẩm dự kiến, gửi Sở An toàn thực phẩm TP.HCM."},
+        {"url": "https://lsvn.vn/de-nghi-giam-an-cho-thuy-tien-quang-linh-vlog-trong-vu-an-keo-rau-cu-kera-a166128.html", "date": "2025-11-19", "raw_file": "_raw/lsvn_caotrang.txt", "excerpt": "đứng tên trên Bản tự công bố sản phẩm ngày 17/12/2024"}
+      ]
+    },
+    "filed_on": {
+      "value": "2024-12-23",
+      "confidence": "medium",
+      "sources": [
+        {"url": "https://www.sggp.org.vn/can-trong-truoc-quang-cao-cong-dung-cua-keo-rau-post785032.html", "date": "2025-03-08", "raw_file": "_raw/sggp_cantrong.txt", "excerpt": "Theo thông tin từ Sở ATTP TPHCM, thực phẩm bổ sung SUPERGREENS GUMMIES (“kẹo rau củ Kera”) được Công ty cổ phần Tập đoàn Chị Em Rọt công bố và nộp hồ sơ ngày 23-12-2024."}
+      ],
+      "note": "Một nguồn (Sở ATTP qua SGGP). Ngày ký 17/12 và ngày nộp 23/12 không mâu thuẫn."
+    },
+    "receiving_authority": "Sở An toàn thực phẩm TP.HCM",
+    "attached_test_report": {
+      "value": "Phiếu kết quả thử nghiệm của Công ty cổ phần Khoa học công nghệ Avatek (chỉ tiêu dinh dưỡng, 'Xơ tổng số', chỉ tiêu ATTP); xơ tổng 0,935 g/100 g",
+      "confidence": "medium",
+      "sources": [
+        {"url": "https://tuoitre.vn/tach-hanh-vi-tiep-tuc-dieu-tra-vu-san-xuat-hang-gia-lien-quan-keo-kera-20251112144726724.htm", "date": "2025-11-12", "raw_file": "_raw/tuoitre_tachhanhvi.txt"},
+        {"url": "https://vietnamnet.vn/ket-qua-kiem-dinh-boc-tran-quang-cao-lo-cua-hang-du-muc-quang-linh-2378211.html", "date": "2025-03-07", "raw_file": "_raw/vietnamnet_kiemdinh.txt", "excerpt": "kết quả của Trung tâm kiểm nghiệm và tư vấn UDKH Avetec đưa ra ngày 3/12/2024 cho thấy, trong 100g kẹo rau củ Kera có 0,935% chất xơ"}
+      ],
+      "note": "Phiếu kiểm nghiệm đi kèm hồ sơ có số xơ tổng, nhưng bảng dinh dưỡng trên nhãn và bảng tự công bố KHÔNG có chỉ tiêu chất xơ (xem nutrition_declared). Sở ATTP coi việc quảng cáo chất xơ là vượt hồ sơ."
+    }
+  },
+
+  "ingredients_declared": {
+    "summary": {
+      "value": "22 nguyên liệu, trong đó 10 loại bột rau củ quả chiếm 28,13%",
+      "confidence": "high",
+      "sources": [
+        {"url": "https://tuoitre.vn/keo-kera-bi-thoi-ham-luong-rau-0-7-len-28-hoa-hau-thuy-tien-khong-dong-pham-san-xuat-hang-gia-20260403104553753.htm", "date": "2026-04-03", "raw_file": "_raw/tuoitre_2026.txt", "excerpt": "Hồ sơ nêu 22 thành phần, trong đó 10 loại bột rau củ chiếm tới 28,13%, gồm: cải bó xôi, rau má, chùm ngây, diếp cá, cần tây, chuối xanh, cà rốt, bí ngô, khoai lang tím và táo xanh."},
+        {"url": "https://www.sggp.org.vn/vien-ksnd-tphcm-de-nghi-tu-2-den-25-nam-tu-doi-voi-thuy-tien-quang-linh-va-hang-du-muc-post824276.html", "date": "2025-11-19", "raw_file": "_raw/sggp_vks_denghi.txt", "excerpt": "Trong hồ sơ công bố sản phẩm ghi rõ: kẹo Kera chứa 22 nguyên liệu, trong đó có 10 loại bột rau củ quả, chiếm tới 28,13%."},
+        {"url": "https://lsvn.vn/de-nghi-giam-an-cho-thuy-tien-quang-linh-vlog-trong-vu-an-keo-rau-cu-kera-a166128.html", "date": "2025-11-19", "raw_file": "_raw/lsvn_caotrang.txt", "excerpt": "vẫn ban hành Bản tự công bố sản phẩm; trong đó có 10 loại bột rau, củ, quả chiếm 28,13%"}
+      ]
+    },
+    "ten_vegetable_powders": {
+      "value": ["cải bó xôi", "rau má", "chùm ngây", "diếp cá", "cần tây", "chuối xanh", "cà rốt", "bí ngô", "khoai lang tím", "táo xanh"],
+      "confidence": "high",
+      "sources": [
+        {"url": "https://tuoitre.vn/keo-kera-bi-thoi-ham-luong-rau-0-7-len-28-hoa-hau-thuy-tien-khong-dong-pham-san-xuat-hang-gia-20260403104553753.htm", "date": "2026-04-03", "raw_file": "_raw/tuoitre_2026.txt"},
+        {"url": "https://tuoitre.vn/plo/vksnd-toi-cao-truy-to-hoa-hau-thuy-tien-quang-linh-vlogs-hang-du-muc-vu-keo-kera-109871188.htm", "date": "2025-09-19", "raw_file": "_raw/plo_vks_truyto.txt", "note": "cùng danh sách 10 loại, nhưng ở đây là nội dung quảng cáo, không phải trích hồ sơ"}
+      ],
+      "per_item_percent_on_label": {
+        "method": "chép từ ảnh",
+        "confidence": "low",
+        "text_on_image": "…xôi (5,43%), bột rau má (4,69%), bột chùm ngây (3,…%), … bột cần tây (2,5%), bột chuối xanh (2,…%), bột c… / …(1,56%), bột khoai lang tím …, bột táo xanh …",
+        "image_url": "https://cdn2.tuoitre.vn/nld/291774122806476800/2025/3/21/screenshot-2025-03-21-at-154057-17425466099491237480079.png",
+        "article_url": "https://nld.com.vn/co-quan-chuc-nang-noi-gi-ve-chat-la-trong-keo-rau-kera-196250321160014499.htm",
+        "article_date": "2025-03-22",
+        "image_file": "_raw/img/nld_kiemnghiem.png",
+        "note": "Ảnh chụp lọ kẹo, chữ thành phần mờ và bị cong theo thân lọ. Chỉ 'bột rau má (4,69%)' và 'bột cần tây (2,5%)' đọc tương đối rõ. Không dùng các % này làm chuẩn đối chiếu nếu chưa có ảnh rõ hơn."
+      }
+    },
+    "other_declared_ingredients": [
+      {"value": "chiết xuất từ lá cỏ ngọt", "confidence": "medium", "url": "https://vnexpress.net/hoa-hau-thuy-tien-doi-tang-co-phan-vi-keo-kera-dat-khach-4936003.html", "date": "2025-09-06", "raw_file": "_raw/vnexpress_tangcophan.txt", "excerpt": "đường cát Sacharose (chiếm tỷ lệ 12%) để thay thế thành phần \"chiết xuất từ lá cỏ ngọt\" ghi trên bản tự công bố."},
+      {"value": "Maxicuma (Curcumin 40%)", "method": "chép từ ảnh", "confidence": "medium", "image_file": "_raw/img/nld_nhan_sorbitol.png", "corroboration": "ảnh quảng cáo 'Maxicuma chứa 40% Curcumin' (_raw/img/tuoitre_10loai.jpg) và bài đăng fanpage KERA Vietnam chụp trong _raw/img/shtt_keo1.png ('trong kẹo rau củ KERA còn có vitamin A, B6, B12, Maxicuma (40% curcumin). Thông tin này đã được KERA công bố trước đây.')"},
+      {"value": "Vitamin A, B6, B12", "method": "chép từ ảnh", "confidence": "medium", "image_file": "_raw/img/nld_nhan_sorbitol.png"},
+      {"value": "hương táo (nhãn không ghi rõ tự nhiên/giống tự nhiên/tổng hợp/nhân tạo)", "confidence": "high", "url": "https://vnexpress.net/keo-rau-cu-kera-bi-phat-125-trieu-dong-thu-hoi-san-pham-4865313.html", "date": "2025-03-24", "raw_file": "_raw/vnexpress_phat125.txt"},
+      {"value": "phụ gia acid citric (nhãn chưa ghi tên nhóm chất phụ gia)", "confidence": "high", "url": "https://vnexpress.net/keo-rau-cu-kera-bi-phat-125-trieu-dong-thu-hoi-san-pham-4865313.html", "date": "2025-03-24", "raw_file": "_raw/vnexpress_phat125.txt"}
+    ],
+    "box_text_english": {"value": "Including 10 types of … moringa, houttuynia, … banana, and green apple", "method": "chép từ ảnh", "confidence": "low", "image_file": "_raw/img/nld_nhan_sorbitol.png"},
+    "not_declared_but_present": [
+      {"value": "sorbitol 33,4 g/100 g (Viện Kiểm nghiệm ATVSTP Quốc gia) — không ghi trên nhãn", "confidence": "high", "url": "https://tuoitre.vn/keo-rau-cu-kera-co-thanh-phan-chat-tao-ngot-nhung-khong-ghi-tren-nhan-dan-20250320130339401.htm", "date": "2025-03-20", "raw_file": "_raw/tuoitre_sorbitol_nhan.txt"},
+      {"value": "Sorbitol 70% (khoảng 35% công thức), đường cát saccharose (khoảng 12%) — theo kết luận điều tra", "confidence": "high", "url": "https://vnexpress.net/hoa-hau-thuy-tien-doi-tang-co-phan-vi-keo-kera-dat-khach-4936003.html", "date": "2025-09-06", "raw_file": "_raw/vnexpress_tangcophan.txt"}
+    ],
+    "actual_vs_declared": {
+      "declared_vegetable_powder_pct": 28.13,
+      "actual_vegetable_powder_pct_range": [0.61, 0.75],
+      "confidence": "high",
+      "sources": [
+        {"url": "https://tuoitre.vn/keo-kera-bi-thoi-ham-luong-rau-0-7-len-28-hoa-hau-thuy-tien-khong-dong-pham-san-xuat-hang-gia-20260403104553753.htm", "date": "2026-04-03", "raw_file": "_raw/tuoitre_2026.txt"},
+        {"url": "https://vnexpress.net/hoa-hau-thuy-tien-doi-tang-co-phan-vi-keo-kera-dat-khach-4936003.html", "date": "2025-09-06", "raw_file": "_raw/vnexpress_tangcophan.txt"}
+      ],
+      "conflicts": [
+        {"value": "0,53% rau củ; sorbitol 70% thành phần", "url": "https://thanhnien.vn/mot-phien-live-hoa-hau-thuy-tien-xuat-hien-thu-ve-hon-400-trieu-dong-185250905200713698.htm", "date": "2025-09-06", "note": "Thanh Niên lệch các nguồn khác; có thể nhầm 'Sorbitol 70%' (nồng độ siro) thành tỉ lệ trong kẹo. Không dùng."},
+        {"value": "0,747% (công thức Asia Life chốt, 29 nguyên liệu)", "url": "https://vnexpress.net/tu-con-sot-mang-xa-hoi-den-be-boi-quang-cao-keo-rau-cu-kera-4936616.html", "date": "2025-09-09", "note": "khớp khoảng 0,61–0,75%"}
+      ]
+    }
+  },
+
+  "nutrition_declared": {
+    "per": "3,2 g (1 viên)",
+    "rows": [
+      {"name": "Năng lượng (Energy)", "value": "10 kcal", "nrv": "1%"},
+      {"name": "Chất đạm (Protein)", "value": "0,287 g", "nrv": "1%"},
+      {"name": "Carbohydrate", "value": "2,29 g", "nrv": "1%"},
+      {"name": "Đường tổng số (Total sugar)", "value": "0,995 g", "nrv": "-"},
+      {"name": "Chất béo (Total fat)", "value": "0,011 g", "nrv": "0%"},
+      {"name": "Natri (Sodium)", "value": "6,43 mg", "nrv": "0%"}
+    ],
+    "fiber_row": null,
+    "confidence": "high",
+    "sources": [
+      {"url": "https://vietnamnet.vn/xu-phat-125-trieu-dong-vu-keo-rau-cu-kera-thu-hoi-san-pham-2382563.html", "date": "2025-03-24", "raw_file": "_raw/vietnamnet_phat125.txt", "excerpt": "năng lượng là 9,62kcal/3,2g (trên nhãn công bố 10kcal/3,2g); hàm lượng chất đạm là 0,29g/3,2g (trên nhãn công bố 0,287g/3,2g), hàm lượng đường tổng số là 0,71g/3,2g (trên nhãn công bố 0,995g/3,2g), hàm lượng Carbohydrat là 2,17g/3,2g (trên nhãn công bố 2,29 g/3,2g), hàm lượng chất béo tổng không phát hiện (trên nhãn công bố 0,011 g/3,2g), hàm lượng Natri là 7,2 mg/3,2g (trên nhãn công bố 6,43 mg/3,2g)."},
+      {"method": "chép từ ảnh", "image_file": "_raw/img/nld_kiemnghiem.png", "text_on_image": "THÔNG TIN DINH DƯỠNG (NUTRITION FACTS) | Trên 3,2 g (In 3,2 g) | % Giá trị dinh dưỡng tham chiếu — 10 kcal 1% / 0,287 g 1% / 2,29 g 1% / 0,995 g - / 0,011 g 0% / 6,43 mg 0%"},
+      {"url": "https://vnexpress.net/khong-kiem-nghiem-chat-xo-trong-keo-rau-cu-kera-4864089.html", "date": "2025-03-21", "raw_file": "_raw/vnexpress_khongkiemnghiem.txt", "excerpt": "Trong bảng tự công bố hàm lượng của kẹo rau củ Kera không có chỉ tiêu về chất xơ ... trên bao bì kẹo Kera ghi thành phần và hàm lượng đường, đạm, chất béo, năng lượng; song không ghi chất xơ."}
+    ],
+    "regulator_statement_on_fiber": {
+      "text": "Kẹo Kera được doanh nghiệp quảng cáo chất xơ dù thành phần này không có trong hồ sơ tự công bố sản phẩm trước khi lưu hành, là vi phạm quy định về quảng cáo và sẽ bị xử phạt về hành vi này",
+      "speaker": "đại diện Sở An toàn thực phẩm TP.HCM",
+      "url": "https://vnexpress.net/khong-kiem-nghiem-chat-xo-trong-keo-rau-cu-kera-4864089.html",
+      "date": "2025-03-21",
+      "confidence": "high"
+    }
+  },
+
+  "label_claims": {
+    "slogan": {
+      "value": "Khoẻ đẹp tự nhiên từ chất xơ",
+      "method": "chép từ ảnh + text báo",
+      "confidence": "high",
+      "sources": [
+        {"method": "chép từ ảnh", "image_file": "_raw/img/vtv_sanpham.png", "text_on_image": "“ Khoẻ đẹp tự nhiên từ chất xơ ”"},
+        {"url": "https://tuoitre.vn/plo/vksnd-toi-cao-truy-to-hoa-hau-thuy-tien-quang-linh-vlogs-hang-du-muc-vu-keo-kera-109871188.htm", "date": "2025-09-19", "raw_file": "_raw/plo_vks_truyto.txt", "excerpt": "Trên nhãn, sản phẩm được quảng bá bằng khẩu hiệu bắt mắt: “Khỏe đẹp tự nhiên từ chất xơ”."},
+        {"url": "https://nongnghiepmoitruong.vn/hang-du-muc-va-hoa-hau-thuy-tien-quang-linh-vlogs-thu-loi-dac-biet-lon-d773897.html", "date": "2025-09-19", "raw_file": "_raw/nnmt_thuloi.txt"}
+      ],
+      "note": "Khẩu hiệu nhắc 'chất xơ' nhưng bảng dinh dưỡng không có chỉ tiêu chất xơ."
+    },
+    "front_icons": {"value": ["Gluten Free", "Green Energy", "Keto Friendly"], "method": "chép từ ảnh", "confidence": "high", "image_file": "_raw/img/vtv_sanpham.png"},
+    "certification_logos": {"value": ["ISO", "HACCP", "FDA", "(logo thứ tư không đọc được)"], "method": "chép từ ảnh", "confidence": "medium", "image_file": "_raw/img/vtv_sanpham.png", "note": "Logo in trên nhãn, không phải chứng nhận đã kiểm chứng."},
+    "box_bullets": {"value": ["Gồm 10 loại rau củ quả: Cải … tây, … chuối …", "Maxicuma (Curcumin 40%)", "Vitamin A, B6, B12"], "method": "chép từ ảnh", "confidence": "low", "image_file": "_raw/img/nld_nhan_sorbitol.png"},
+    "function_claim_in_dossier": {"value": null, "note": "KHÔNG TÌM THẤY mục 'công dụng' của bản tự công bố trong bất kỳ nguồn nào. Không suy ra."},
+    "usage_instructions": {
+      "value": null,
+      "indirect_evidence": [
+        {"text": "Đúng theo liều khuyến cáo sử dụng là hai ba viên một ngày ạ.", "speaker_role": "[KOL 3]", "context": "trả lời tại phiên tòa 19/11/2025, phụ đề tự động", "url": "https://www.youtube.com/watch?v=S6pwLTCqU_A", "timestamp": "00:00–00:08", "confidence": "low"},
+        {"text": "mọi người một ngày thì quy định của nó là cũng là tầm hai ba viên thôi mà", "speaker_role": "[không rõ]", "context": "trích livestream trong bản tin, phụ đề tự động", "url": "https://www.youtube.com/watch?v=adrRcdXl9ho", "timestamp": "00:02–00:07", "confidence": "low"}
+      ],
+      "note": "Có dấu hiệu nhãn/hồ sơ ghi liều 2–3 viên/ngày nhưng chưa thấy chữ in trên nhãn. Để null."
+    },
+    "target_users": {
+      "value": null,
+      "indirect_evidence": [{"text": "…3 tuổi", "method": "chép từ ảnh", "image_file": "_raw/img/tuoitre_10loai.jpg", "confidence": "low", "note": "mảnh chữ ở mặt bên lọ, bị cắt, không đọc được cả câu"}],
+      "note": "Không xác định được nhãn có ghi đối tượng 'trẻ trên 3 tuổi / phụ nữ mang thai' hay không."
+    },
+    "mandatory_label_defects_found_by_regulator": {
+      "value": ["thiếu cụm từ “khối lượng tịnh”", "hương táo không ghi rõ loại hương", "acid citric chưa ghi tên nhóm phụ gia", "có sorbitol nhưng không thể hiện trên nhãn"],
+      "confidence": "high",
+      "sources": [
+        {"url": "https://vietnamnet.vn/xu-phat-125-trieu-dong-vu-keo-rau-cu-kera-thu-hoi-san-pham-2382563.html", "date": "2025-03-24", "raw_file": "_raw/vietnamnet_phat125.txt"},
+        {"url": "https://tienphong.vn/phat-tap-doan-chi-em-rot-125-trieu-dong-buoc-thu-hoi-keo-rau-cu-kera-post1727877.tpo", "date": "2025-03-25", "raw_file": "_raw/tienphong_phat125.txt"}
+      ]
+    }
+  },
+
+  "validity": {
+    "valid_from": {
+      "value": "2024-12-23",
+      "basis": "ngày nộp hồ sơ tự công bố tới Sở ATTP TP.HCM (SGGP 08/03/2025 dẫn Sở ATTP)",
+      "alternative": {"value": "2024-12-17", "basis": "ngày ký bản tự công bố (kết luận điều tra/cáo trạng)"},
+      "confidence": "medium"
+    },
+    "recalled_on": {
+      "value": "2025-03-24",
+      "authority": "Chánh Thanh tra Sở An toàn thực phẩm TP.HCM",
+      "decision_number": null,
+      "decision_number_note": "Không tìm thấy số quyết định trong các nguồn đã tải.",
+      "measures": ["phạt 125 triệu đồng (2 hành vi)", "buộc thu hồi hàng hóa và buộc ghi nhãn đúng quy định trước khi tiếp tục lưu thông", "buộc thu hồi và tiêu hủy nhãn vi phạm", "buộc nộp lại số tiền bằng trị giá tang vật đã tiêu thụ", "buộc thu hồi bản tự công bố sản phẩm"],
+      "violations": [
+        "buôn bán hàng hóa có nhãn không ghi đủ / ghi không đúng nội dung bắt buộc",
+        "lưu thông thực phẩm không phù hợp với thông tin sản phẩm đã công bố: năng lượng, đạm, đường tổng số, carbohydrate, chất béo tổng, natri không phù hợp với nhãn trong hồ sơ tự công bố"
+      ],
+      "inspection_basis": "Công văn số 396/ATTP-PCTTR của Cục An toàn thực phẩm (kiểm tra đột xuất tại trụ sở CER)",
+      "confidence": "high",
+      "sources": [
+        {"url": "https://vietnamnet.vn/xu-phat-125-trieu-dong-vu-keo-rau-cu-kera-thu-hoi-san-pham-2382563.html", "date": "2025-03-24", "raw_file": "_raw/vietnamnet_phat125.txt", "excerpt": "Ngày 24/3, Chánh Thanh tra Sở An toàn thực phẩm ban hành Quyết định xử phạt vi phạm hành chính đối với 2 hành vi vi phạm của Công ty Cổ phần Tập đoàn Chị Em Rọt ... số tiền phạt là 125 triệu đồng. ... buộc thu hồi bản tự công bố sản phẩm đối với sản phẩm thuộc diện tự công bố sản phẩm."},
+        {"url": "https://plo.vn/cong-ty-chi-em-rot-bi-phat-125-trieu-dong-thu-hoi-san-pham-keo-rau-cu-kera-post840592.html", "date": "2025-03-24", "raw_file": "_raw/plo_phat125.txt"},
+        {"url": "https://vneconomy.vn/cong-ty-ban-keo-rau-cu-kera-bi-phat-125-trieu-dong-buoc-thu-hoi-san-pham.htm", "date": "2025-03-25", "raw_file": "_raw/vneconomy_phat125.txt"}
+      ]
+    },
+    "related_regulatory_events": [
+      {"date": "2025-03-06", "event": "Cục ATTP (Bộ Y tế) có văn bản đề nghị Sở ATTP TP.HCM kiểm tra CER về điều kiện sản xuất, công bố, quảng cáo; đề nghị Sở Y tế Đắk Lắk kiểm tra Asia Life", "url": "https://thoibaotaichinhvietnam.vn/bo-y-te-vao-cuoc-vu-quang-cao-no-thuc-pham-bo-sung-keo-rau-cu-171952.html"},
+      {"date": "2025-03-20", "event": "Viện Kiểm nghiệm ATVSTP Quốc gia: đạm, đường, chất béo, năng lượng 'cơ bản phù hợp' bản tự công bố; phát hiện sorbitol 33,4 g/100 g không ghi trên nhãn", "url": "https://tuoitre.vn/keo-rau-cu-kera-co-thanh-phan-chat-tao-ngot-nhung-khong-ghi-tren-nhan-dan-20250320130339401.htm"},
+      {"date": "2025-03-20", "event": "Cục PTTH&TTĐT (Bộ VHTTDL) phạt [KOL 1] và [KOL 2] mỗi người 70 triệu đồng theo k5 Đ34 NĐ 38/2021 (sửa bởi NĐ 129/2021): 'quảng cáo không đúng, gây nhầm lẫn về chất lượng đã được công bố'; buộc cải chính. [KOL 3] là khách mời, bị nhắc nhở.", "url": "https://www.sggp.org.vn/vien-keo-bang-dia-rau-quang-linh-vlogs-va-hang-du-muc-bi-phat-140-trieu-dong-post786923.html", "decision_number": null},
+      {"date": "2025-03-21", "event": "Sở ATTP TP.HCM: bảng tự công bố không có chỉ tiêu chất xơ; quảng cáo chất xơ là vi phạm quy định quảng cáo", "url": "https://vnexpress.net/khong-kiem-nghiem-chat-xo-trong-keo-rau-cu-kera-4864089.html"}
+    ]
+  },
+
+  "sales_window": {
+    "value": {"from": "2024-12-12", "to": "2025-03-14"},
+    "source": "https://lsvn.vn/de-nghi-giam-an-cho-thuy-tien-quang-linh-vlog-trong-vu-an-keo-rau-cu-kera-a166128.html",
+    "note": "Khoảng bán hàng theo cáo trạng; 6 phiên livestream chỉ nằm trong 12/12/2024–16/01/2025 (xem timeline.json)."
+  },
+
+  "timepoint_states": [
+    {"from": null, "to": "2024-12-16", "state": "CHƯA_CÓ_HỒ_SƠ", "note": "Phiên 12/12/2024 và 15/12/2024 diễn ra trước ngày ký (17/12) và nộp (23/12) bản tự công bố. Phiên 12/12 bán đặt trước, 'nhóm chưa có sản phẩm nên khách phải đợi 7-14 ngày' (VnExpress 06/09/2025)."},
+    {"from": "2024-12-17", "to": "2024-12-22", "state": "ĐÃ_KÝ_CHƯA_NỘP", "note": "Chỉ có nếu dùng mốc ký; không có phiên livestream nào trong khoảng này."},
+    {"from": "2024-12-23", "to": "2025-03-23", "state": "HIỆU_LỰC", "note": "Phiên 04/01, 08/01, 14/01, 16/01/2025 nằm trong khoảng này. Đối chiếu claim với các trường ở trên."},
+    {"from": "2025-03-24", "to": null, "state": "ĐÃ_THU_HỒI", "note": "Bản tự công bố bị buộc thu hồi. Mọi claim sau mốc này: không còn hồ sơ hợp lệ."}
+  ],
+
+  "gaps": [
+    "Không có bản tự công bố gốc (PDF/ảnh). Thành phần, % và bảng dinh dưỡng lấy qua lời cơ quan nhà nước/báo và ảnh nhãn.",
+    "Số bản tự công bố chỉ đọc được một phần từ ảnh: 01/CHỊ EM RỌT/202?.",
+    "Không có số quyết định xử phạt của Sở ATTP TP.HCM (24/3/2025) và của Cục PTTH&TTĐT (20/3/2025).",
+    "Không tìm thấy mục 'công dụng', 'hướng dẫn sử dụng', 'đối tượng sử dụng' của hồ sơ. Chỉ có bằng chứng gián tiếp (liều 2–3 viên/ngày; mảnh chữ '…3 tuổi').",
+    "% từng loại bột rau trên nhãn chỉ đọc được 2 giá trị (rau má 4,69%, cần tây 2,5%) từ ảnh mờ.",
+    "Hai bài VOV (vov.vn) trả 403 với máy này (requests và PowerShell), không tải được."
+  ]
+}

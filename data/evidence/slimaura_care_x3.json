@@ -1,0 +1,64 @@
+{
+  "sku_id": "slimaura_care_x3",
+  "product_name": "Slimaura Care x3",
+  "trade_names_seen": ["Slimaura Care x3", "Viên Uống SlimAura Care X3 Hộp 38 Viên (tiêu đề listing Shopee, theo slug URL trong công văn VFA)"],
+  "category": "unknown",
+  "category_note": "Ảnh hộp trong bài VnBusiness 05/08/2026 in dòng chữ nhỏ 'Thực phẩm bổ sung' phía trên tên SLIMAURA CARE X3; VFA gọi là 'sản phẩm thực phẩm ... thuộc nhóm thực phẩm chức năng'; listing lại dẫn số dạng ĐKSP (loại giấy dành cho TPBVSK). Chưa xác định được nhóm chính thức.",
+  "company": "Công ty TNHH Thương mại và dịch vụ Slimaura Care Việt Nam (Phòng 102 tập thể Viện khoa học xã hội, xóm Chùa, tổ 6, phường Đống Đa, Hà Nội)",
+  "registration": {
+    "dksp_number": "838/2024/ĐKSP",
+    "claimed_date": "2024-02-23",
+    "status": "mismatch",
+    "registry_rows": [
+      {"stt": "72092", "so_giay": "838/2024/ĐKSP", "to_chuc": "CÔNG TY TNHH DƯỢC PHẨM MEDICOPHAR", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe CALCI LIPOCAN 700", "role": "chủ thật của số (dòng nằm trong dãy số liên tục 837→838→839/2024)"},
+      {"stt": "64704", "so_giay": "838/2024/ĐKSP", "to_chuc": "CÔNG TY TNHH LEKING PHARMA", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe LEKITER CALZBONE KIDDY", "role": "TRÙNG SỐ trong registry — dòng nằm trong khối số không theo thứ tự; có thể là lỗi nhập liệu của file VFA"},
+      {"stt": "36932", "so_giay": "1665/2021/ĐKSP", "to_chuc": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ SLIMMING CARE VIỆT NAM", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe SLIMMING CARE X3", "role": "BẪY TÊN GẦN GIỐNG — sản phẩm khác, công ty tên gần giống; KHÔNG phải Slimaura"}
+    ],
+    "note": "VFA (04/08/2026, CV 1539/ATTP-SP): listing Shopee ghi 'Giấy tiếp nhận đăng ký bản công bố sản phẩm số 838/2024/ĐKSP ngày 23/02/2024' nhưng Cục không cấp số này cho Slimaura Care x3. Registry: không có dòng nào chứa 'slimaura'/'slim aura'; số 838/2024/ĐKSP xuất hiện HAI lần (MEDICOPHAR – CALCI LIPOCAN 700 và LEKING PHARMA – LEKITER CALZBONE KIDDY). Cả hai đều không phải Slimaura → R07 = mismatch dù chọn dòng nào. Registry không có cột ngày nên không đối chiếu được '23/02/2024'. Rủi ro khớp mờ: 'Slimaura Care X3' ↔ 'SLIMMING CARE X3' (1665/2021/ĐKSP, có hồ sơ GXNQC 'Hồ sơ đã hoàn tất' 05/06/2024 trong qc_2023_2024.csv) — so khớp tên mờ sẽ cho kết quả sai; phải khớp số + tên + công ty."
+  },
+  "ad_confirmation": {
+    "gxnqc_number": null,
+    "issuer": null,
+    "status": "absent",
+    "sources": ["https://vfa.gov.vn/tin-tuc/yeu-cau-go-bo-ngung-kinh-doanh-san-pham-slimaura-care-x3-do-vi-pham-phap-luat.html"],
+    "note": "Suy ra: Cục không cấp bản công bố cho sản phẩm thì không thể có GXNQC; qc_2023_2024.csv không có dòng Slimaura. Không có văn bản nào nói thẳng về GXNQC."
+  },
+  "recalls": [],
+  "permitted_claims": [],
+  "claims_reported_by_regulator_or_press": [
+    {"text": "Sản phẩm được quảng cáo với công dụng giảm cân, giải độc gan, thanh lọc cơ thể. Sản phẩm có giá bán 500.000 - 600.000 đồng/hộp/38 viên.", "source": "https://tuoitre.vn/bo-y-te-de-nghi-go-bo-san-pham-slimaura-care-x3-giam-can-chua-duoc-cap-phep-100260805091646511.htm", "note": "báo thuật lại, không phải nguyên văn listing"},
+    {"text": "Slimaura Care x3 được quảng cáo rộng rãi với công dụng hỗ trợ kiểm soát cân nặng, giảm cảm giác thèm ăn và hạn chế hấp thu chất béo nhờ các thành phần thảo mộc tự nhiên.", "source": "https://nhandan.vn/ocop/khan-truong-kiem-tra-xac-minh-hoat-dong-kinh-doanh-san-pham-giam-can-slimaura-care-x3-post980253.html", "note": "báo thuật lại"}
+  ],
+  "mandatory_phrases_observed": {
+    "category_phrase_on_label": false,
+    "disclaimer_text": null,
+    "note": "Ảnh hộp (VnBusiness) in 'Thực phẩm bổ sung', không thấy 'Thực phẩm bảo vệ sức khỏe'. Chữ nhỏ, đọc từ ảnh báo; độ tin cậy trung bình."
+  },
+  "origin_declared": {"text": null, "source": "chưa thấy"},
+  "regulator_warnings": [
+    {
+      "date": "2026-08-04",
+      "url": "https://vfa.gov.vn/tin-tuc/yeu-cau-go-bo-ngung-kinh-doanh-san-pham-slimaura-care-x3-do-vi-pham-phap-luat.html",
+      "excerpt": "qua tra cứu dữ liệu cấp Giấy tiếp nhận đăng ký bản công bố sản phẩm, Cục An toàn thực phẩm không cấp Giấy tiếp nhận đăng ký bản công bố sản phẩm số 838/2024/ĐKSP ngày 23/02/2024 cho sản phẩm Slimaura Care x3 của Công ty TNHH Thương mại và dịch vụ Slimaura Care Việt Nam"
+    },
+    {
+      "date": "2026-08-04",
+      "url": "https://vfa.gov.vn/upload/files/6/10/Tuan/Tuan%201/Tuan%202/Tuan%203/Tuan%204/Tuan%205/Tuan%206/Tuan%207/Tuan%208/CV%20gui%20shopee%2031_7_2025_signed.pdf",
+      "excerpt": "Công văn 1539/ATTP-SP gửi Công ty TNHH Shopee: 'Sản phẩm nêu trên cũng đang được quảng cáo và kinh doanh trên sàn thương mại điện tử (Shopee), với thông tin Giấy tiếp nhận đăng ký bản công bố sản phẩm số 838/2024/ĐKSP ngày 23/02/2024 cho sản phẩm Slimaura Care x3' — yêu cầu ngừng kinh doanh, gỡ bỏ, báo cáo trước 07/8/2026."
+    },
+    {
+      "date": "2026-08-06",
+      "url": "https://vfa.gov.vn/tin-tuc/khan-truong-kiem-tra-xac-minh-hoat-dong-san-xuat-kinh-doanh-quang-cao-san-pham-slimaura-care-x3.html",
+      "excerpt": "Công văn 1565/ATTP-SP: đề nghị Chi cục ATVSTP Hà Nội kiểm tra, xác minh hoạt động sản xuất, kinh doanh, quảng cáo và lấy mẫu kiểm nghiệm; báo cáo trước 14/8/2026."
+    }
+  ],
+  "listing_urls_named_by_regulator": [
+    "https://www.lazada.vn/products/pdp-i1904649784-s15138333133.html",
+    "https://shopee.vn/Vi%C3%AAn-U%E1%BB%91ng-SlimAura-Care-X3-H%E1%BB%99p-38-Vi%C3%AAn-i.1270683596.42877444108"
+  ],
+  "gaps": [
+    "Không có công dụng được phép: sản phẩm không có bản công bố hợp lệ → permitted_claims để trống (đúng bản chất ca R07).",
+    "Listing Shopee/Lazada đã bị yêu cầu gỡ; không lấy được nguyên văn mô tả (Shopee cần JS/đăng nhập, không thử vượt).",
+    "Registry trùng số 838/2024/ĐKSP cho 2 sản phẩm — cần đội hỏi VFA hoặc tra cổng dichvucong để biết dòng nào đúng; không ảnh hưởng kết luận mismatch."
+  ]
+}

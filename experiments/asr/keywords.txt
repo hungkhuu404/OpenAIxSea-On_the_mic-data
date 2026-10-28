@@ -1,0 +1,15 @@
+# Một từ khoá mỗi dòng: tên SKU, hoạt chất, cụm pháp lý mà ASR phải nghe đúng.
+# Sửa theo video thật trước khi chạy. Dòng bắt đầu bằng # bị bỏ qua.
+DK-Betics Gold
+Non Alco
+Slimaura Care
+thực phẩm bảo vệ sức khỏe
+không phải là thuốc
+không có tác dụng thay thế thuốc chữa bệnh
+tiểu đường
+đường huyết
+gan
+men gan
+giảm cân
+giấy xác nhận quảng cáo
+Bộ Y tế

@@ -1,0 +1,17 @@
+# Raw downloads: third-party pages, press articles, captions. Kept locally for provenance, not republished.
+_raw/
+_build/
+
+# Held-out must stay sealed until judging (commit-reveal). candidates.jsonl and the review files contain held-out cases too.
+data/cases/heldout.jsonl
+data/cases/candidates.jsonl
+data/cases/review/
+
+# ASR experiment outputs contain audio cut from real shop videos.
+experiments/asr/runs/
+
+__pycache__/
+*.pyc
+
+# Stats of the private candidate pool (its split proposal is superseded). Public stats for golden come after label review.
+data/cases/STATS.md

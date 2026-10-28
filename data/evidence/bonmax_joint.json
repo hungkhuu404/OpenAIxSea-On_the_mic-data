@@ -1,0 +1,35 @@
+{
+  "sku_id": "bonmax_joint",
+  "product_name": "Thực phẩm bảo vệ sức khoẻ BONMAX JOINT",
+  "category": "TPBVSK",
+  "company": "CÔNG TY CỔ PHẦN DƯỢC PHẨM FAMAX (Số 16/122 Ngõ 509 Phố Vũ Tông Phan, Phường Khương Đình, Quận Thanh Xuân, Hà Nội)",
+  "registration": {
+    "dksp_number": "1389/2024/ĐKSP",
+    "issued_date": "2024-02-05",
+    "status": "match",
+    "registry_rows": [
+      {"stt": "66099", "so_giay": "1389/2024/ĐKSP", "to_chuc": "CÔNG TY CỔ PHẦN DƯỢC PHẨM FAMAX", "ten_san_pham": "Thực phẩm bảo vệ sức khoẻ BONMAX JOINT", "role": "khớp SKU"},
+      {"stt": "62285", "so_giay": "8436/2023/ĐKSP", "to_chuc": "CÔNG TY CỔ PHẦN DƯỢC PHẨM FAMAX", "ten_san_pham": "Thực phẩm bảo vệ sức khoẻ Spray BONMAX D3K2", "role": "cùng họ BONMAX, KHÁC SKU"},
+      {"stt": "64643", "so_giay": "9693/2023/ĐKSP", "to_chuc": "CÔNG TY CỔ PHẦN DƯỢC PHẨM FAMAX", "ten_san_pham": "Thực phẩm bảo vệ sức khoẻ BONMAX CALCI MILK", "role": "cùng họ BONMAX, KHÁC SKU"},
+      {"stt": "64912", "so_giay": "1258/2024/ĐKSP", "to_chuc": "CÔNG TY CỔ PHẦN DƯỢC PHẨM FAMAX", "ten_san_pham": "Thực phẩm bảo vệ sức khoẻ LIQUID BONMAX CALCI", "role": "cùng họ BONMAX, KHÁC SKU"},
+      {"stt": "25441", "so_giay": "3234/2020/ĐKSP", "to_chuc": "CÔNG TY TNHH THƯƠNG MẠI QUỐC TẾ VINAMAX", "ten_san_pham": "Thực phẩm bảo vệ sức khỏe Viên dưỡng khớp Bonmax", "role": "BẪY TRÙNG TÊN — công ty khác"}
+    ],
+    "note": "Số và ngày cấp theo VFA 29/04/2025; registry khớp. Họ BONMAX có 4 SKU của Famax + 1 'Viên dưỡng khớp Bonmax' của Vinamax → cần khớp đủ tên."
+  },
+  "ad_confirmation": {"gxnqc_number": null, "issuer": "Cục An toàn thực phẩm (nếu đã cấp)", "status": "unknown",
+    "sources": ["research-data-2026-10-21/qc_2023_2024.csv dòng TT 931"],
+    "note": "qc_2023_2024.csv: hồ sơ GXNQC ' BONMAX JOINT' của Famax nộp 28/3/2024, trạng thái 'Hồ sơ đã hoàn tất' — nhiều khả năng đã được cấp nhưng file không có số GXNQC và không có nội dung."},
+  "recalls": [],
+  "permitted_claims": [],
+  "mandatory_phrases_observed": {"category_phrase_on_label": null, "disclaimer_text": null},
+  "origin_declared": {"text": null, "source": "chưa thấy"},
+  "regulator_warnings": [
+    {"date": "2025-04-29", "url": "https://vfa.gov.vn/tin-tuc/canh-bao-thuc-pham-bao-ve-suc-khoe-bonmax-joint-co-noi-dung-quang-cao-vi-pham-quy-dinh-cua-phap-luat.html",
+     "excerpt": "Qua công tác hậu kiểm, Cục An toàn thực phẩm phát hiện tại đường link https://www.facebook.com/xuongkhopbonmaxjoint/videos/-l%C3%A0nh-t%C3%ADnh-hi%E1%BB%87u-qu%E1%BA%A3-ti%E1%BA%BFt-ki%E1%BB%87m/897046429044396/ đang quảng cáo Thực phẩm bảo vệ sức khỏe BONMAX JOINT có nội dung quảng cáo gây hiểu nhầm có công dụng như thuốc chữa bệnh. ... đại diện Công ty Cổ phần Dược phẩm Famax khẳng định không thực hiện và không ủy quyền cho bất cứ tổ chức, cá nhân nào thực hiện quảng cáo"}
+  ],
+  "gaps": [
+    "Không tìm được nhãn, website hãng hay listing nhà thuốc có công dụng của BONMAX JOINT (tìm từ máy Mỹ và máy VN đều không ra) → permitted_claims rỗng.",
+    "Video Facebook vi phạm không xem được khi không đăng nhập; chỉ có tiêu đề khôi phục từ slug URL ('lành tính hiệu quả tiết kiệm').",
+    "Kênh YouTube 'Bác Sĩ 4.0' gắn hashtag #bonmax #duocfamax nhưng không rõ SKU nào trong họ BONMAX."
+  ]
+}
