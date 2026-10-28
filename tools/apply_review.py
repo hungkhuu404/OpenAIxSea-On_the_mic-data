@@ -79,6 +79,8 @@ def main() -> int:
         rec = {
             "case_id": cid, "sku_id": base["sku_id"], "text": text, "label": label,
             "abstain_expected": abstain, "rule_ids": rules,
+            # Claim-level label when R06 is ignored (Non Alco only); a proposal the workbook does not review.
+            "claim_level_label_proposed": base.get("claim_level_label"),
             "legal_basis": base.get("proposed_legal_basis"),
             "source_url": base["source_url"], "source_type": base["source_type"],
             "source_date": base.get("source_date"), "modality": base["modality"],
