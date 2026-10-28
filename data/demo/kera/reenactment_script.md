@@ -47,7 +47,9 @@ Tái hiện từ lời trích trong báo chí/bản án — không phải bản 
 
 **[KOL 3]** Mình là người không biết ăn rau và mình tin có rất nhiều người giống như mình, đặc biệt là trẻ em kén ăn rau. Một người sợ mùi rau như mình vẫn có thể ăn kẹo Kera rất ngon. Mỗi ngày chỉ cần 2-3 viên là đã bổ sung đủ chất xơ `[nguồn: kera-q-026]`
 
-**[KOL 3]** Em bé sau 3 tuổi có thể ăn được. Mẹ bầu cũng có thể ăn được luôn. Vì đây là những sản phẩm thiên nhiên, đến từ những loại quả trái được trồng ở vùng Đắk Lắk và Tây Nguyên `[nguồn: kera-q-025]`
+**[KOL 3]** Em bé sau 3 tuổi có thể ăn được. Mẹ bầu cũng có thể ăn được luôn. `[nguồn: kera-q-025, câu 1–2]`
+
+**[KOL 3]** Vì đây là những sản phẩm thiên nhiên, đến từ những loại quả trái được trồng ở vùng Đắk Lắk và Tây Nguyên `[nguồn: kera-q-025, câu 3]`
 
 **[KOL 2]** Giá hôm nay là 129 nghìn một hộp. Mọi người bấm vào giỏ hàng ở góc màn hình để đặt nha. `[dựng thêm – trung tính]`. Con số 129.000 đồng là giá mà kết luận điều tra dùng để tính doanh thu (VnExpress 06/09/2025). Đây là thông tin giá, không phải claim sản phẩm.
 
@@ -67,7 +69,7 @@ Tái hiện từ lời trích trong báo chí/bản án — không phải bản 
 
 ## Thống kê
 
-- 23 lượt nói. Trong đó 13 lượt là câu trích nguyên văn, lấy từ 12 claim_id (kera-q-015 được tách làm 2 câu): kera-q-002, 003, 007, 008, 015, 022, 025, 026, 035, 036, 039, 040. 8 lượt là câu nối trung tính, 2 lượt là đọc nguyên văn nhãn. Đã chạy script đối chiếu: cả 13 câu trích khớp từng chữ với `claims_quoted.jsonl`.
+- 24 lượt nói. Trong đó 14 lượt là câu trích nguyên văn, lấy từ 12 claim_id (kera-q-015 và kera-q-025 mỗi câu được tách làm 2 lượt): kera-q-002, 003, 007, 008, 015, 022, 025, 026, 035, 036, 039, 040. 8 lượt là câu nối trung tính, 2 lượt là đọc nguyên văn nhãn. Đã chạy script đối chiếu: cả 14 lượt trích khớp từng chữ với `claims_quoted.jsonl`.
 - Khoảng 500 chữ phần đọc thành tiếng, không tính chú thích. Đọc tốc độ livestream (khoảng 140–160 chữ/phút) mất khoảng 3,2–3,6 phút.
 
 ## Câu trích không đưa vào bản tái hiện
